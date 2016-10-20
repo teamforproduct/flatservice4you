@@ -1,0 +1,22 @@
+default: &default
+ adapter: postgresql
+ encoding: unicode
+ pool: 5
+
+development:
+ <<: *default
+ database: flat_service_development
+ username: postgres
+ password: postgres
+
+test:
+ <<: *default
+ database: flat_service_test
+ username: postgres
+ password: postgres
+
+production:
+  <<: *default
+  database: flat_service_development
+  username: postgres
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
