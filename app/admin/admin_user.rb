@@ -1,4 +1,6 @@
 ActiveAdmin.register AdminUser do
+  menu priority: 1, label: proc{ I18n.t("active_admin.admin_user_index") }
+
   permit_params :email, :password, :password_confirmation
 
   index do

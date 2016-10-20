@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
+gem 'select2-rails'
+gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
