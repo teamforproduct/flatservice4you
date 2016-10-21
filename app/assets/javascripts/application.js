@@ -11,6 +11,19 @@
 // about supported directives.
 //
 //= require jquery
+
 //= require jquery_ujs
 //= require turbolinks
+
+//= require modernizr-2.6.2.min
+//= require respond.min
+//= require jquery.min.js
+//= require jquery.easing.1.3
+//= require bootstrap.min
+//= require jquery.waypoints.min
+//= require jquery.magnific-popup.min
+//= require owl.carousel.min
+//= require jquery.countTo
+//= require main
+
 //= require_tree .

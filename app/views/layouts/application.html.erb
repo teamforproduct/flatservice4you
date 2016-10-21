@@ -2,13 +2,24 @@
 <html>
 <head>
   <title>Flatservice4you</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="shortcut icon" href="favicon.ico">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= locale_swicher %>
-<%= yield %>
+  <%= render 'shared/sidebar' %>
+  <%= render 'shared/menu' %>
+
+  <div id="template-nt-page">
+    <div id="template-nt-wrap">
+      <%= render 'shared/header' %>
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
+  </div>
 
 </body>
 </html>
