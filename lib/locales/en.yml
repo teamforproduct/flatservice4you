@@ -1,0 +1,4 @@
+en:
+  active_admin:
+    user_index: User
+    admin_user_index: Admin user
