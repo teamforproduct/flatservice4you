@@ -1,0 +1,93 @@
+<div id="template-nt-subscribe">
+  <div class="container">
+    <%= form_for @user do |f| %>
+      <div class="row animate-box-off">
+
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <%= f.text_field :name, class: "form-control", placeholder: "First Name" %>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <%= f.text_field :surname, class: "form-control", placeholder: "Surname" %>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <%= f.email_field :email, class: "form-control", placeholder: "Email",
+                              oninvalid: "this.setCustomValidity('Invalid email')",
+                              oninput: "setCustomValidity('')",
+                              pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}',
+                              required: true %>
+          </div>
+        </div>
+      </div>
+      <%= f.fields_for :car do |c| %>
+        <div class="row animate-box-off">
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :make, class: "form-control", placeholder: "Make" %>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :model, class: "form-control", placeholder: "model" %>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :engine, class: "form-control", placeholder: "Engine" %>
+            </div>
+          </div>
+        </div>
+        <div class="row animate-box-off">
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :registration_no, class: "form-control", placeholder: "registration_no" %>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :vin, class: "form-control", placeholder: "vin" %>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :actual_mileage, class: "form-control", placeholder: "actual_mileage" %>
+            </div>
+          </div>
+
+        </div>
+        <div class="row animate-box-off">
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.text_field :yearly_mileage, class: "form-control", placeholder: "yearly_mileage" %>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="form-group">
+              <%= c.select :driving_profile, options_for_select( Car.driving_profiles.keys ), {}, class: "form-control" %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+      <div class="row animate-box-off">
+        <div class="col-md-3 col-sm-3">
+          <div class="form-group">
+            <%= f.submit 'Create', class: "btn btn-primary" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
