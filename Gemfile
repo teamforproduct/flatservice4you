@@ -37,6 +37,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
 gem 'select2-rails'
 gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
+gem 'enum_help'
 
 gem "font-awesome-rails"
 

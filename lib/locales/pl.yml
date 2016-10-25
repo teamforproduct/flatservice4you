@@ -34,6 +34,14 @@ pl:
           urban:
           highway:
           country_road:
+  helpers:
+    submit:
+      user:
+        create:
+        update:
+      car:
+        create:
+        update:
   problem:
     headline:
     text:

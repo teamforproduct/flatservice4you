@@ -5,19 +5,19 @@
 
         <div class="col-md-3 col-sm-3">
           <div class="form-group">
-            <%= f.text_field :name, class: "form-control", placeholder: "First Name" %>
+            <%= f.text_field :name, class: "form-control", placeholder: true %>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-3">
           <div class="form-group">
-            <%= f.text_field :surname, class: "form-control", placeholder: "Surname" %>
+            <%= f.text_field :surname, class: "form-control", placeholder: true %>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-3">
           <div class="form-group">
-            <%= f.email_field :email, class: "form-control", placeholder: "Email",
+            <%= f.email_field :email, class: "form-control", placeholder: true,
                               oninvalid: "this.setCustomValidity('Invalid email')",
                               oninput: "setCustomValidity('')",
                               pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}',
@@ -29,19 +29,19 @@
         <div class="row animate-box-off">
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :make, class: "form-control", placeholder: "Make" %>
+              <%= c.text_field :make, class: "form-control", placeholder: true %>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :model, class: "form-control", placeholder: "model" %>
+              <%= c.text_field :model, class: "form-control", placeholder: true %>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :engine, class: "form-control", placeholder: "Engine" %>
+              <%= c.text_field :engine, class: "form-control", placeholder: true %>
             </div>
           </div>
         </div>
@@ -49,19 +49,19 @@
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :registration_no, class: "form-control", placeholder: "registration_no" %>
+              <%= c.text_field :registration_no, class: "form-control", placeholder: true %>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :vin, class: "form-control", placeholder: "vin" %>
+              <%= c.text_field :vin, class: "form-control", placeholder: true %>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :actual_mileage, class: "form-control", placeholder: "actual_mileage" %>
+              <%= c.text_field :actual_mileage, class: "form-control", placeholder: true %>
             </div>
           </div>
 
@@ -70,13 +70,13 @@
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.text_field :yearly_mileage, class: "form-control", placeholder: "yearly_mileage" %>
+              <%= c.text_field :yearly_mileage, class: "form-control", placeholder: true %>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= c.select :driving_profile, options_for_select( Car.driving_profiles.keys ), {}, class: "form-control" %>
+              <%= c.select :driving_profile, options_for_select( Car.driving_profiles_i18n ), {}, class: "form-control" %>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
       <div class="row animate-box-off">
         <div class="col-md-3 col-sm-3">
           <div class="form-group">
-            <%= f.submit 'Create', class: "btn btn-primary" %>
+            <%= f.submit class: "btn btn-primary" %>
           </div>
         </div>
       </div>

@@ -34,6 +34,14 @@ en:
           urban: Urban
           highway: Highway
           country_road: Country road
+  helpers:
+    submit:
+      user:
+        create: Create user
+        update: Update user
+      car:
+        create: Create car
+        update: Update car
   problem:
     headline: Get rid of your unserviced car
     text: There are many reasons why your car is not serviced. We help you to solve them easily.
