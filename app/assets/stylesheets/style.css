@@ -260,7 +260,6 @@
 		text-shadow: none !important;
 	  }
 
-	  a,
 	  a:visited {
 		text-decoration: underline;
 	  }
@@ -1444,7 +1443,7 @@
 
 	a {
 	  color: #764134;
-	  text-decoration: none;
+	  text-decoration: none!important;
 	}
 	a:hover, a:focus {
 	  color: #2ba99a;
