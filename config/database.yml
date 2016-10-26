@@ -17,6 +17,6 @@ test:
 
 production:
   <<: *default
-  database: flat_service_development
-  username: postgres
+  database: flat_service_production
+  username: rails
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
