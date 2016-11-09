@@ -25,5 +25,6 @@
 //= require owl.carousel.min
 //= require jquery.countTo
 //= require main
+//= require chat
 
 //= require_tree .
