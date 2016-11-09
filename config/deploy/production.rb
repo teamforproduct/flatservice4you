@@ -3,6 +3,18 @@ set :tmp_dir, "/home/rails/tmp"
 
 server '138.68.77.151', user: 'rails', roles: %w{app web db}
 
+namespace :deploy do
+
+  task :restart do
+    on roles(:all) do
+      execute 'sudo service unicorn restart'
+    end
+  end
+
+  after :publishing, 'deploy:restart'
+
+end
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
