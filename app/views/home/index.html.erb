@@ -29,11 +29,6 @@
   <%= render 'solution'%>
   <%= render 'product'%>
   <%= render 'price'%>
-  <%= render 'team'%>
-  <%= render 'faq'%>
-  <%= render 'blog'%>
-
-  <%= render 'users/form' %>
 
   <div id="template-nt-testimony" data-section="testimonies">
     <div class="container">
@@ -85,14 +80,10 @@
               <p class="template-nt-author template-nt-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
             </div>
           </div>
-
-
         </div>
-
       </div>
     </div>
   </div>
-
 
   <div id="template-nt-counter" class="template-nt-bg-section" style="background-image: url(images/rifle19.jpg); background-attachment: fixed;">
     <div class="template-nt-overlay"></div>
@@ -103,16 +94,16 @@
             <div class="template-nt-hero-intro text-center to-animate-off counter-animate">
               <div class="col-md-4 text-center">
                 <span class="template-nt-counter js-counter" data-from="0" data-to="28" data-speed="5000" data-refresh-interval="50"></span>
-                <span class="template-nt-counter-label">subverts</span>
+                <span class="template-nt-counter-label"><%= t('weeks') %></span>
 
               </div>
               <div class="col-md-4 text-center">
                 <span class="template-nt-counter js-counter" data-from="0" data-to="57" data-speed="5000" data-refresh-interval="50"></span>
-                <span class="template-nt-counter-label">Rifle</span>
+                <span class="template-nt-counter-label"><%= t('days') %></span>
               </div>
               <div class="col-md-4 text-center">
                 <span class="template-nt-counter js-counter" data-from="0" data-to="34023" data-speed="5000" data-refresh-interval="50"></span>
-                <span class="template-nt-counter-label">bullet</span>
+                <span class="template-nt-counter-label"><%= t('minutes') %></span>
               </div>
             </div>
           </div>
@@ -120,4 +111,10 @@
       </div>
     </div>
   </div>
+
+  <%= render 'team'%>
+  <%= render 'faq'%>
+  <%= render 'blog'%>
+
+  <%= render 'users/form' %>
 </div>
