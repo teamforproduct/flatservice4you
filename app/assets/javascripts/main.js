@@ -303,8 +303,8 @@ $(function () {
 
 	// Features Animate
 	var featuresAnimate = function() {
-		if ( $('#template-nt-features').length > 0 ) {	
-			$('#template-nt-features .to-animate').each(function( k ) {
+		if ( $('#template-nt-problems').length > 0 ) {
+			$('#template-nt-problems .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -316,8 +316,8 @@ $(function () {
 		}
 	};
 	var featuresWayPoint = function() {
-		if ( $('#template-nt-features').length > 0 ) {
-			$('#template-nt-features').waypoint( function( direction ) {
+		if ( $('#template-nt-problems').length > 0 ) {
+			$('#template-nt-problems').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
