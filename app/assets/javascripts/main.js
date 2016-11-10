@@ -514,8 +514,8 @@ $(function () {
 
 	// Features 3 Animate
 	var features3Animate = function() {
-		if ( $('#template-nt-features-3').length > 0 ) {	
-			$('#template-nt-features-3 .to-animate').each(function( k ) {
+		if ( $('#template-nt-team').length > 0 ) {
+			$('#template-nt-team .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -527,8 +527,8 @@ $(function () {
 		}
 	};
 	var features3WayPoint = function() {
-		if ( $('#template-nt-features-3').length > 0 ) {
-			$('#template-nt-features-3').waypoint( function( direction ) {
+		if ( $('#template-nt-team').length > 0 ) {
+			$('#template-nt-team').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
@@ -536,11 +536,11 @@ $(function () {
 					
 
 					setTimeout(function(){
-						$('.features3-animate-1').addClass('fadeIn animated');
+						$('.team-animate-1').addClass('fadeIn animated');
 					}, 200);
 
 					setTimeout(function(){
-						$('.features3-animate-2').addClass('fadeIn animated');
+						$('.team-animate-2').addClass('fadeIn animated');
 					}, 400);
 
 					setTimeout(features3Animate, 800);

@@ -7865,7 +7865,7 @@
 
 	#template-nt-problems,
 	#template-nt-solution,
-	#template-nt-features-3,
+	#template-nt-team,
 	#template-nt-products,
   #template-nt-promo,
 	#template-nt-faqs {
@@ -7875,7 +7875,7 @@
 	@media screen and (max-width: 768px) {
 	  #template-nt-problems,
 	  #template-nt-solution,
-	  #template-nt-features-3,
+	  #template-nt-team,
     #template-nt-promo,
 	  #template-nt-products,
 	  #template-nt-faqs {
@@ -7884,7 +7884,7 @@
 	}
 
 	#template-nt-problems,
-	#template-nt-feature-3,
+	#template-nt-team,
 	#template-nt-faqs {
 	  background: #fafafa;
 	}
@@ -7893,34 +7893,34 @@
 	  background: #fff;
 	}
 
-	#template-nt-features-3 .template-nt-text-wrap {
+	#template-nt-team .template-nt-text-wrap {
 	  margin-bottom: 2em;
 	}
 	@media screen and (max-width: 1200px) {
-	  #template-nt-features-3 .template-nt-text-wrap {
+	  #template-nt-team .template-nt-text-wrap {
 		margin-top: 0em;
 	  }
 	}
 	@media screen and (max-width: 992px) {
-	  #template-nt-features-3 .template-nt-text-wrap {
+	  #template-nt-team .template-nt-text-wrap {
 		margin-top: 0em;
 	  }
 	}
-	#template-nt-features-3 .template-nt-text-wrap .template-nt-text {
+	#template-nt-team .template-nt-text-wrap .template-nt-text {
 	  margin-bottom: 20px;
 	}
 	@media screen and (max-width: 768px) {
-	  #template-nt-features-3 .template-nt-text-wrap .template-nt-text {
+	  #template-nt-team .template-nt-text-wrap .template-nt-text {
 		padding-left: 15px;
 		padding-right: 15px;
 	  }
 	}
-	#template-nt-features-3 .template-nt-icon {
+	#template-nt-team .template-nt-icon {
 	  font-size: 40px;
 	  display: block;
 	  margin-bottom: 20px;
 	}
-	#template-nt-features-3 .template-nt-icon i {
+	#template-nt-team .template-nt-icon i {
 	  color: #764134;
 	}
 
