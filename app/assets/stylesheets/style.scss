@@ -3783,8 +3783,8 @@
 
 	.btn-primary {
 	  color: #fff;
-	  background-color: #AFA060;
-	  border-color: #3bcdbb;
+	  background-color: #90bf20;
+	  border-color: #90bf20;
 	}
 	.btn-primary:focus, .btn-primary.focus {
 	  color: #fff;
@@ -7539,7 +7539,7 @@
 	#template-nt-offcanvass ul li a:hover, #template-nt-offcanvass ul li a:focus, #template-nt-offcanvass ul li a:active {
 	  outline: none;
 	  text-decoration: none;
-	  background-color:#AFA060;
+	  background-color:#90bf20;
 	  color:#FFF;
 	  
 	 
@@ -7681,7 +7681,7 @@
 	  }
 	}
 	#template-nt-hero .template-nt-intro h2 {
-	  color: #fff;
+	  color: #2f98c8;
 	  font-size: 50px;
 	  line-height: 50px;
 	  font-weight: 700;
@@ -7693,6 +7693,7 @@
 	  }
 	}
 	#template-nt-hero .template-nt-intro p {
+    color: #000000;
 	  font-size: 18px;
 	  line-height: 26px;
 	  letter-spacing: .05em;
@@ -7763,7 +7764,7 @@
 
 	#template-nt-clients {
 	  padding: 2em 0;
-	  background: #764134;
+	  background: #1295c3;
 	  position: relative;
 	}
 	#template-nt-clients .template-nt-client {
@@ -7780,7 +7781,7 @@
 	  }
 	}
 	@media screen and (max-width: 480px) {
-	  #template-nt-clients .template-nt-client img {
+	  #template-nt-client imgs .template-nt-client img {
 		max-width: 100%;
 	  }
 	}
@@ -7812,7 +7813,7 @@
 	#template-nt-subscribe {
 	  padding: 4em 0 3em 0;
 	  position: relative;
-	  background: #764134;
+	  background: #90bf20;
 	}
 	#template-nt-subscribe .form-control {
 	  color: #fff;
@@ -8199,7 +8200,7 @@
 	}
 
 	#template-nt-testimony {
-	  background: #764134;
+	  background: #90bf20;
 	  color: #fff;
 	  padding: 8em 0;
 	}
@@ -8482,7 +8483,7 @@
 	
 	#template-nt-footer {
 	  padding: 4em 0;
-	  background:  #2A1A1F;
+	  background:  #878c93;
 	  color: #878c93;
 	  position: fixed;
 	  bottom: 0;
@@ -8496,7 +8497,7 @@
 	  right: 0;
 	  bottom: 0;
 	  z-index: 8;
-	  background: #2A1A1F;
+	  background: #878c93;
 	  opacity: .5;
 	}
 	#template-nt-footer .template-nt-footer-content {
@@ -8704,7 +8705,7 @@
 	  text-decoration: none;
 	}
 	.template-nt-nav-toggle.active i::before, .template-nt-nav-toggle.active i::after {
-	  background: #fff;
+	  background: #808080;
 	}
 	.template-nt-nav-toggle:hover, .template-nt-nav-toggle:focus, .template-nt-nav-toggle:active {
 	  outline: none;
@@ -8718,18 +8719,18 @@
 	  *display: inline;
 	  width: 25px;
 	  height: 3px;
-	  color: #fff;
+	  color: #808080;
 	  font: bold 14px/.4 Helvetica;
 	  text-transform: uppercase;
 	  text-indent: -55px;
-	  background: #fff;
+	  background: #808080;
 	  transition: all .2s ease-out;
 	}
 	.template-nt-nav-toggle i::before, .template-nt-nav-toggle i::after {
 	  content: '';
 	  width: 25px;
 	  height: 3px;
-	  background: #fff;
+	  background: #808080;
 	  position: absolute;
 	  left: 0;
 	  -webkit-transition: 0.2s;
@@ -8737,13 +8738,13 @@
 	  transition: 0.2s;
 	}
 	.scrolled .template-nt-nav-toggle.active i::before, .scrolled .template-nt-nav-toggle.active i::after {
-	  background: #000;
+	  background: #808080;
 	}
 	.scrolled .template-nt-nav-toggle i {
-	  background: #000;
+	  background: #808080;
 	}
 	.scrolled .template-nt-nav-toggle i::before, .scrolled .template-nt-nav-toggle i::after {
-	  background: #000;
+	  background: #808080;
 	}
 
 	.template-nt-nav-toggle i::before {
@@ -8798,6 +8799,7 @@
 	  border-bottom: none !important;
 	}
 	.template-nt-nav-toggle > span {
+    color: #808080;
 	  display: -moz-inline-stack;
 	  display: inline-block;
 	  zoom: 1;
@@ -8808,7 +8810,6 @@
 	  z-index: 99;
 	  width: 100px;
 	  margin-top: 12px;
-	  color: #fff;
 	  margin-left: -70px;
 	  font-family: "Montserrat", arial, sans-serif;
 	  letter-spacing: 2px;
@@ -8816,8 +8817,11 @@
 	  text-transform: uppercase;
 	}
 	.scrolled .template-nt-nav-toggle > span {
-	  color: #000;
+	  color: #808080;
 	}
+  .scrolled .template-nt-nav-toggle > i {
+    color: #808080;
+  }
 
 	.owl-carousel .owl-controls,
 	.owl-carousel-posts .owl-controls {
