@@ -20,4 +20,55 @@ body#flatservice {
     width: 200px;
     margin: 0 auto;
   }
+
+  #home-divider {
+    padding: 2em 0;
+    background: #1295c3;
+    position: relative;
+  }
+  #home-divider .menu-button {
+    margin-bottom: 0px;
+  }
+  #home-divider .menu-button {
+    .template-nt-nav-toggle > span {
+      color: #ffffff;
+    }
+
+    .template-nt-nav-toggle i {
+      background: #ffffff;
+    }
+
+    .template-nt-nav-toggle i::before, .template-nt-nav-toggle i::after {
+      background: #ffffff;
+    }
+
+    .scrolled .template-nt-nav-toggle i {
+      background: #ffffff;
+    }
+    .scrolled .template-nt-nav-toggle i::before, .scrolled .template-nt-nav-toggle i::after {
+      background: #ffffff;
+    }
+
+    .scrolled .template-nt-nav-toggle > span {
+      color: #ffffff;
+    }
+    .scrolled .template-nt-nav-toggle > i {
+      color: #ffffff;
+    }
+
+    .template-nt-nav-toggle.active i {
+      background: transparent;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    #home-divider .menu-button {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #home-divider .menu-button {
+      margin-bottom: 30px;
+    }
+  }
 }
