@@ -7864,7 +7864,7 @@
 	}
 
 	#template-nt-problems,
-	#template-nt-features-2,
+	#template-nt-solution,
 	#template-nt-features-3,
 	#template-nt-products,
   #template-nt-promo,
@@ -7874,7 +7874,7 @@
 	}
 	@media screen and (max-width: 768px) {
 	  #template-nt-problems,
-	  #template-nt-features-2,
+	  #template-nt-solution,
 	  #template-nt-features-3,
     #template-nt-promo,
 	  #template-nt-products,
@@ -7889,7 +7889,7 @@
 	  background: #fafafa;
 	}
 
-	#template-nt-features-2 {
+	#template-nt-solution {
 	  background: #fff;
 	}
 
@@ -7924,47 +7924,47 @@
 	  color: #764134;
 	}
 
-	#template-nt-features-2 .template-nt-text-wrap {
+	#template-nt-solution .template-nt-text-wrap {
 	  margin-top: 5em;
 	}
 	@media screen and (max-width: 1200px) {
-	  #template-nt-features-2 .template-nt-text-wrap {
+	  #template-nt-solution .template-nt-text-wrap {
 		margin-top: 0em;
 	  }
 	}
 	@media screen and (max-width: 992px) {
-	  #template-nt-features-2 .template-nt-text-wrap {
+	  #template-nt-solution .template-nt-text-wrap {
 		margin-top: 0em;
 	  }
 	}
-	#template-nt-features-2 .template-nt-text-wrap .template-nt-text {
+	#template-nt-solution .template-nt-text-wrap .template-nt-text {
 	  padding-left: 3em;
 	  padding-right: 3em;
 	}
 	@media screen and (max-width: 768px) {
-	  #template-nt-features-2 .template-nt-text-wrap .template-nt-text {
+	  #template-nt-solution .template-nt-text-wrap .template-nt-text {
 		padding-left: 15px;
 		padding-right: 15px;
 	  }
 	}
-	#template-nt-features-2 .template-nt-icon {
+	#template-nt-solution .template-nt-icon {
 	  font-size: 40px;
 	  display: block;
 	  margin-bottom: 20px;
 	}
-	#template-nt-features-2 .template-nt-icon i {
+	#template-nt-solution .template-nt-icon i {
 	  color: #764134;
 	}
 	@media screen and (max-width: 992px) {
-	  #template-nt-features-2 .template-nt-image {
+	  #template-nt-solution .template-nt-image {
 		margin-top: 30px;
 	  }
 	}
-	#template-nt-features-2 .template-nt-image img {
+	#template-nt-solution .template-nt-image img {
 	  max-width: 100%;
 	}
 	@media screen and (max-width: 480px) {
-	  #template-nt-features-2 .template-nt-image img {
+	  #template-nt-solution .template-nt-image img {
 		max-width: 100%;
 	  }
 	}

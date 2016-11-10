@@ -335,8 +335,8 @@ $(function () {
 
 	// Features 2 Animate
 	var features2AnimateTitle = function() {
-		if ( $('#template-nt-features-2').length > 0 ) {	
-			$('#template-nt-features-2 .to-animate').each(function( k ) {
+		if ( $('#template-nt-solution').length > 0 ) {
+			$('#template-nt-solution .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -348,8 +348,8 @@ $(function () {
 		}
 	};
 	var features2WayPoint = function() {
-		if ( $('#template-nt-features-2').length > 0 ) {
-			$('#template-nt-features-2').waypoint( function( direction ) {
+		if ( $('#template-nt-solution').length > 0 ) {
+			$('#template-nt-solution').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
@@ -357,16 +357,16 @@ $(function () {
 					setTimeout(features2AnimateTitle, 100);
 
 					setTimeout(function(){
-						$('.features-2-animate-2').addClass('fadeInUp animated');
+						$('.solution-animate-2').addClass('fadeInUp animated');
 					}, 800);
 
 					setTimeout(function(){
-						$('.features-2-animate-3').addClass('fadeInRight animated');
-						$('.features-2-animate-5').addClass('fadeInLeft animated');
+						$('.solution-animate-3').addClass('fadeInRight animated');
+						$('.solution-animate-5').addClass('fadeInLeft animated');
 					}, 1200);
 					setTimeout(function(){
-						$('.features-2-animate-4').addClass('fadeInRight animated');
-						$('.features-2-animate-6').addClass('fadeInLeft animated');
+						$('.solution-animate-4').addClass('fadeInRight animated');
+						$('.solution-animate-6').addClass('fadeInLeft animated');
 					}, 1400);
 					
 					
