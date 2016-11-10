@@ -1,5 +1,5 @@
 body#flatservice {
-  #logo-img {
+  .logo-img {
     width:120px; height:62px;
   }
 
@@ -9,6 +9,10 @@ body#flatservice {
 
   .template-nt-client img {
     height: 100px;
+  }
+
+  #template-nt-footer {
+    color: #f9f6f0;
   }
 
   a, a:link, a:visited {
