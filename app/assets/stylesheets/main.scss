@@ -1,6 +1,18 @@
 body#flatservice {
   .logo-img {
-    width:120px; height:62px;
+    width:120px;
+    height:62px;
+  }
+
+  .main-banner {
+    background: url('/assets/main_banner.jpg') center top;
+    background-size: 270em 75em;
+    background-repeat: no-repeat;
+  }
+
+  #template-nt-hero .template-nt-intro .template-nt-text {
+    height: auto;
+    padding: 0 3em 3em 3em;
   }
 
   #template-nt-clients {
