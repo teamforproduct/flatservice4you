@@ -5,10 +5,7 @@
         <h2 class="template-nt-lead to-animate-off"> <%= t('video_headline')%> </h2>
       </div>
 
-      <video width="100%" controls>
-        <source src="" type="video/mp4">
-        <%= t('browser_does_support_video')%>
-      </video>
+      <%= video_tag(["promo.mp4"], style: 'width: 100% ', controls: true) %>
 
       <div class="template-nt-spacer template-nt-spacer-sm"></div>
 
