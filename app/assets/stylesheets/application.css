@@ -12,7 +12,8 @@
  *
  *= require_self
  *= require animate
- *= require icomoon-free/style
+ * require icomoon-free/style
+ *= require icomoon
  *= require magnific-popup
  *= require owl.carousel.min
  *= require owl.theme.default.min
