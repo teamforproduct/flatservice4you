@@ -7456,11 +7456,11 @@
 	  transform: translateX(-290px) !important;
 	}
 	.scrolled #template-nt-menu {
-	  background: #fff;
+	  background: #1295c3;
 	  position: fixed;
 	  margin-top: 0px;
 	  top: 0;
-	  border-bottom: 1px solid #ccc;
+	  border-bottom: 1px solid #1295c3;
 	  -webkit-transform: translateY(0%);
 	  -moz-transform: translateY(0%);
 	  -ms-transform: translateY(0%);
@@ -8741,13 +8741,13 @@
 	  transition: 0.2s;
 	}
 	.scrolled .template-nt-nav-toggle.active i::before, .scrolled .template-nt-nav-toggle.active i::after {
-	  background: #808080;
+	  background: #fff;
 	}
 	.scrolled .template-nt-nav-toggle i {
-	  background: #808080;
+	  background: #fff;
 	}
 	.scrolled .template-nt-nav-toggle i::before, .scrolled .template-nt-nav-toggle i::after {
-	  background: #808080;
+	  background: #fff;
 	}
 
 	.template-nt-nav-toggle i::before {
@@ -8820,10 +8820,10 @@
 	  text-transform: uppercase;
 	}
 	.scrolled .template-nt-nav-toggle > span {
-	  color: #808080;
+	  color: #fff;
 	}
   .scrolled .template-nt-nav-toggle > i {
-    color: #808080;
+    color: #fff;
   }
 
 	.owl-carousel .owl-controls,
