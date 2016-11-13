@@ -21,7 +21,6 @@ module Flatservice4you
     config.i18n.available_locales = [:en, :pl]
     config.i18n.default_locale = :en
     config.assets.paths << "#{Rails.root}/app/assets/video"
-    # config.assets.enabled = true
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true

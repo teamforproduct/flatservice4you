@@ -12,9 +12,10 @@
 @import "active_admin/mixins";
 @import "active_admin/base";
 
-$skinActiveColor: #e68a00;
+$skinActiveColor: #90bf20;
 $skinHeaderBck: #002744;
 $panelHeaderBck: #002744;
+$skinLogo: #ecf0f1;
 
 @import "active_skin";
 
@@ -24,3 +25,9 @@ $panelHeaderBck: #002744;
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+
+
+#header h1.site_title {
+  text-indent: 0;
+  padding-left: 50px;
+}

@@ -10,11 +10,11 @@ body#flatservice {
   }
 
   #template-nt-clients {
-    padding: 0;
+    padding: 10px;
   }
 
-  .template-nt-client img {
-    height: 100px;
+  #template-nt-clients img {
+    max-height: 65px;
   }
 
   #template-nt-footer {
