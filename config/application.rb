@@ -20,6 +20,8 @@ module Flatservice4you
     config.i18n.load_path += Dir[Rails.root.join('lib', 'locales', '*.{rb,yml}').to_s]
     config.i18n.available_locales = [:en, :pl]
     config.i18n.default_locale = :en
+    config.i18n.fallbacks = {'pl' => 'en'}
+
     config.assets.paths += ["#{Rails.root}/app/assets/video", "#{Rails.root}/app/assets/fonts"]
 
     # Do not swallow errors in after_commit/after_rollback callbacks.

@@ -67,4 +67,20 @@ body#flatservice {
   .solution-icon i:hover, .solution-icon i.active {
     color: #1295c3;
   }
+
+  .locale-dropdown {
+    background-color: #1295c3;
+    min-width: 10px;
+  }
+
+  .nav-locale .dropdown > a {
+    color: #808080;
+  }
+
+  .nav-locale > li > a:hover, .nav-locale > li > a:focus {
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #1295c3;
+    color: #fff;
+  }
 }
