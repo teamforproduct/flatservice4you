@@ -153,5 +153,13 @@ body#flatservice {
       right: 0;
       padding: 30px 10px;
     }
+
+    #template-nt-menu .template-nt-nav-toggle span {
+      display: none;
+    }
+
+    #template-nt-menu .template-nt-nav-toggle {
+      top: 0;
+    }
   }
 }
