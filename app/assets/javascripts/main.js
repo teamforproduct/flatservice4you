@@ -36,7 +36,15 @@ $(function () {
 		});
 	};
 
-	// Single Page Nav
+  var userForm = function() {
+    $('body').on('click', '.user-home-form-btn', function(event){
+      $('.user-home-form').toggleClass('visible');
+      $('.user-home-form .xs-hidden').toggleClass('col-xs-10');
+      $('.user-home-form .xs-hidden').toggleClass('active');
+    });
+  };
+
+  // Single Page Nav
 	var clickMenu = function() {
 		$('a:not([class="external"])').click(function(){
 			var section = $(this).data('nav-section')
@@ -655,6 +663,7 @@ $(function () {
 
 		magnifPopup();
 		offCanvass();
+    userForm();
 		mobileMenuOutsideClick();
 		footerFixed();
 		faqsAccordion();

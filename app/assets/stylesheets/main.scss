@@ -112,4 +112,46 @@ body#flatservice {
   #template-nt-hero .template-nt-intro p {
     color: #fff;
   }
+
+  .hidden-md {
+    display: none;
+  }
+
+  @media screen and (max-width: 992px)  {
+    .xs-hidden {
+      display: none;
+      color: #000;
+    }
+
+    #template-nt-hero .xs-hidden.active {
+      display: block;
+      -webkit-transition: ease 2s;
+      -moz-transition: ease 2s;
+      -ms-transition: ease 2s;
+      -o-transition: ease 2s;
+      transition: ease 2s;
+    }
+
+    #template-nt-hero .user-home-form.visible {
+      right: 0;
+      background: #887E7B;
+      height: 400px;
+      -webkit-transition: ease 2s;
+      -moz-transition: ease 2s;
+      -ms-transition: ease 2s;
+      -o-transition: ease 2s;
+      transition: ease 2s;
+    }
+
+    .hidden-md {
+      display: block;
+    }
+
+    #template-nt-hero .user-home-form {
+      position: absolute;
+      top: 55px;
+      right: 0;
+      padding: 30px 10px;
+    }
+  }
 }
