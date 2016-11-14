@@ -1,10 +1,38 @@
-<header id="template-nt-hero" data-section="home" role="banner" style="background: url(<%= image_path('main_banner.jpg') %>) center top fixed;background-size: auto 100%; background-repeat: no-repeat;">
+<header id="template-nt-hero" data-section="home" role="banner" style="background: url(<%= image_path('main_banner.jpg') %>) center top fixed;background-size: auto 100%; background-repeat: no-repeat">
   <div class="template-nt-intro">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 template-nt-text">
+        <div class="col-md-8 template-nt-text">
           <h2 class="to-animate-off intro-animate-1"><%= t('main_banner.headline')%></h2>
           <p class="to-animate-off intro-animate-2"><%= t('main_banner.text')%></p>
+        </div>
+        <div class="col-md-4 user-home-form">
+          <div class="row">
+            <div class="col-md-2">
+              <span class="icon-pen"></span>
+            </div>
+            <div class="col-md-10">
+              <%= form_for @user do |f| %>
+                <div class="form-group">
+                  <%= f.text_field :name, class: "form-control", placeholder: true %>
+                </div>
+
+                <div class="form-group">
+                  <%= f.text_field :surname, class: "form-control", placeholder: true %>
+                </div>
+
+                <div class="form-group">
+                  <%= f.email_field :email, class: "form-control", placeholder: true,
+                                    oninvalid: "this.setCustomValidity('Invalid email')",
+                                    oninput: "setCustomValidity('')",
+                                    pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}',
+                                    required: true %>
+                </div>
+
+                <%= f.submit class: "btn btn-xs btn-success" %>
+              <% end %>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 text-right template-nt-intro-img to-animate-off intro-animate-4">
         </div>

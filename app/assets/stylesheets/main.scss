@@ -83,4 +83,35 @@ body#flatservice {
     background-color: #1295c3;
     color: #fff;
   }
+
+  .user-home-form {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 50px 27px;
+    bottom: -5em;
+    text-align: center;
+
+    ::-webkit-input-placeholder { color: #181818; }
+    ::-moz-placeholder { color: #181818; }
+    :-ms-input-placeholder { color: #181818; }
+    :-moz-placeholder { color: #181818; }
+  }
+
+  .user-home-form .form-control {
+    background-color: rgba(208, 208, 208, 0.45);
+    border: 2px solid rgba(208, 208, 208, 0.07);
+    border-radius: 0;
+  }
+
+  .user-home-form span {
+    color: #fff;
+    font-size: 35px;
+  }
+
+  #template-nt-hero .template-nt-intro p {
+    color: #fff;
+  }
 }
