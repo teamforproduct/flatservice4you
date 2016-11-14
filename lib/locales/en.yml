@@ -10,9 +10,10 @@ en:
     blog: Blog
     social:	Connect with us
   main_banner:
-    headline: Modern Car Maintenance Made Four You.
-    text: Have you problems keeping your car maintenanced? Do you bother about consequential damages? Will you make sure that your family is always safe on the road? So FlatService4You is your opportunity to get rid of all these problems.
+    headline: Modern Car Maintenance. Four You.
+    text: Do you have problems keeping your car maintained? Are you concerned about consequential damages? Do you want to make sure that your family is always safe on the road? So FlatService4You is your opportunity to get rid of all these concerncs.
     call_to_action:	Sign now and get 30% discount for the first year for the oil service!
+  call_to_action: Sign up for 30% discount for your first oil service!
   activerecord:
     models:
       user: User
@@ -43,19 +44,19 @@ en:
         create: Create car
         update: Update car
   problem:
-    headline: Get rid of your unserviced car
+    headline: No more concerns about your car being not serviced.
     text: There are many reasons why your car is not serviced. We help you to solve them easily.
-    reason_1: fund
-    reason_2: awareness
-    reason_3: trust
-    reason_4:
+    reason_1: You won´t pay all at once?
+    reason_2: Are you not aware of the importance of servicing your car?
+    reason_3: You don't trust the repair shops?
+    reason_4: Are you sure about the safety of your family?
   solution:
     headline: We ensure the routine maintenance of your car
-    text: Choose one of our vehicle services, pay a low monthly fee and be sure that the service will be done. Just call out the voucher and you can make the service at on of our certified repair shops.
-    reason_1: Dont pay all at once
-    reason_2: Dont postpone the service due to lack of funds
-    reason_3: Dont bother about it as you have managed the service via our portal
-    reason_4: Dont worry about the safety of your family
+    text: Choose one of our vehicle services, pay a low monthly fee and be sure that the service will be done. Just call out the voucher and you can make the service at one of our certified repair shops.
+    reason_1: Enjoy your freedom with low monthly fees.
+    reason_2: Be sure to have the service done at the right time.
+    reason_3: Get things done with us and don't worry about it any more.
+    reason_4: Make sure that your family is safe on the road.
     reason_5: We recommend only reliable repair shops
     reason_6: We describe exactly what to do and control the repair shops
   video_headline: Check the video and learn more about our service

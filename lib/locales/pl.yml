@@ -3,33 +3,33 @@ pl:
     user_index:
     admin_user_index:
   menu:
-    home:
-    products:
-    price:
-    faq:
-    blog:
-    social:
+    home: Strona główna
+    products: Produkty
+    price: Ceny
+    faq: FAQ - najczęściej zadawane pytania
+    blog: Blog
+    social: Kontakt
   main_banner:
-    headline:
-    text:
-    call_to_action:
+    headline: Nowoczesne utrzymanie samochodu. Dla Ciebie.
+    text: Masz problemy z utrzymaniem Twojego samochodu w idealnym stanie? Obawiasz się poważnych napraw? Chcesz być pewien, że Twoja rodzina będzie zawsze bezpieczna podczas jazdy? FlatService4You jest szansą na pozbycie się tych zmartwień.
+    call_to_action: Zarejestruj się teraz i odbierz rabat 30 % na pierwszą wymianę oleju!
   activerecord:
     models:
       user:
       car:
     attributes:
       user:
-        name:
-        surename:
-        email:
+        name: Imię
+        surename: Nazwisko
+        email: E-mail
       car:
-        make:
-        model:
-        engine:
-        registration_no:
-        actual_mileage:
-        yearly_mileage:
-        driving_profile:
+        make: Zrób to
+        model: Model
+        engine: Silnik
+        registration_no: Numer rejestracyjny
+        actual_mileage: Aktualny przebieg
+        yearly_mileage: Roczny przebieg
+        driving_profile: Profil kierowcy
         driving_profiles:
           urban:
           highway:
@@ -43,26 +43,26 @@ pl:
         create:
         update:
   problem:
-    headline:
-    text:
-    reason_1:
-    reason_2:
-    reason_3:
-    reason_4:
+    headline: Usuń denerwujące usterki w Twoim samochodzie
+    text: Istnieje wiele drobnych usterek, które mogą całkowicie odebrać przyjemność z jazdy i wpłynąć na komfort użytkowania Twojego samochodu. My pomożemy Ci usunąć je szybko i niedrogo.
+    reason_1: Nie chcesz płacić za całą usługę na raz?
+    reason_2: Często zapominasz o obowiązkowej obsłudze Twojego samochodu?
+    reason_3: Nie ufasz warsztatom samochodowym?
+    reason_4: Boisz się o bezpieczeństwo Twojej rodziny?
   solution:
-    headline:
-    text:
-    reason_1:
-    reason_2:
-    reason_3:
-    reason_4:
-    reason_5:
-    reason_6:
-  video_headline:
-  product:
-  price:
-  team:
-  faq:
+    headline: Zapewnimy rutynową obsługę i utrzymanie Twojego samochodu
+    text: Wybierz jedną z naszych usług, płać niski abonament i bądź pewien, że wszystko będzie zrobione na czas. Skorzystaj z vouchera i umów wizytę w jednym z naszych certyfikowanych serwisów.
+    reason_1: Poczuj się wolny, płacąc tylko niski abonament miesięczny
+    reason_2: Bądź pewien, że przypomnimy ci na czas o zbliżąjących się terminach.
+    reason_3: Wybierz na naszym portalu jeden ze sprawdzonych, certfikowanych serwisów i o nic więcej się nie martw!
+    reason_4: Bądź pewien że Twoja rodzina podróżuje bezpiecznym, sprawdzonym smochodem.
+    reason_5: Rekomendujemy tylko solidne serwisy.
+    reason_6: Dokładnie opisujemy, co zostało zrobione i kontrolujemy pracę serwisów.
+  video_headline: Obejrzyj krótki film i dowiedz się więcej o naszym portalu
+  product: Produkt
+  price: Cena
+  team: Zespół
+  faq: FAQ - najczęściej zadawane pytania
   browser_does_support_video:
   view_all_features:
   weeks:
