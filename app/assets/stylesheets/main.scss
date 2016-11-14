@@ -32,7 +32,10 @@ body#flatservice {
   }
 
   .btn {
-    border-radius: 25px;
+    border-top-left-radius: 50px 100px;
+    border-top-right-radius: 50px 100px;
+    border-bottom-left-radius: 50px 100px;
+    border-bottom-right-radius: 50px 100px;
   }
 
   .solution-icon {
@@ -93,11 +96,6 @@ body#flatservice {
     padding: 50px 27px;
     bottom: -5em;
     text-align: center;
-
-    ::-webkit-input-placeholder { color: #181818; }
-    ::-moz-placeholder { color: #181818; }
-    :-ms-input-placeholder { color: #181818; }
-    :-moz-placeholder { color: #181818; }
   }
 
   .user-home-form .form-control {

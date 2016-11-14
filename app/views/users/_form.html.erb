@@ -24,64 +24,7 @@
                               required: true %>
           </div>
         </div>
-      </div>
-      <%= f.fields_for :car do |c| %>
-        <div class="row animate-box-off">
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :make, class: "form-control", placeholder: true %>
-            </div>
-          </div>
 
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :model, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :engine, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-        </div>
-        <div class="row animate-box-off">
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :registration_no, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :vin, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :actual_mileage, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-
-        </div>
-        <div class="row animate-box-off">
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.text_field :yearly_mileage, class: "form-control", placeholder: true %>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-3">
-            <div class="form-group">
-              <%= c.select :driving_profile, options_for_select( Car.driving_profiles_i18n ), {}, class: "form-control" %>
-            </div>
-          </div>
-        </div>
-      <% end %>
-      <div class="row animate-box-off">
         <div class="col-md-3 col-sm-3">
           <div class="form-group">
             <%= f.submit class: "btn btn-default" %>
