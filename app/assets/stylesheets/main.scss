@@ -148,22 +148,18 @@ body#flatservice {
 
     #template-nt-hero .xs-hidden.active {
       display: block;
-      -webkit-transition: all ease 2s;
-      -moz-transition: all ease 2s;
-      -ms-transition: all ease 2s;
-      -o-transition: all ease 2s;
-      transition: all ease 2s;
+      -webkit-transition: -webkit-transform 0.2s ease;
+      -o-transition: transform 0.2s ease;
+      transition: transform 0.2s ease;
     }
 
     #template-nt-hero .user-home-form.visible {
       right: 0;
       background: #887E7B;
       height: 400px;
-      -webkit-transition: all ease 2s;
-      -moz-transition: all ease 2s;
-      -ms-transition: all ease 2s;
-      -o-transition: all ease 2s;
-      transition: all ease 2s;
+      -webkit-transition: -webkit-transform 0.2s ease;
+      -o-transition: transform 0.2s ease;
+      transition: transform 0.2s ease;
     }
 
     .hidden-md {
