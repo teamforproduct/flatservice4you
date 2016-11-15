@@ -6,32 +6,13 @@
           <h2 class="to-animate-off intro-animate-1"><%= t('main_banner.headline')%></h2>
           <p class="to-animate-off intro-animate-2"><%= t('main_banner.text')%></p>
         </div>
-        <div class="col-md-4 user-home-form">
+        <div id="user-home-form" class="col-xs-12 col-md-4">
           <div class="row">
-            <div class="col-sm-2 col-xs-2 hidden-md">
-              <span class="icon-pen user-home-form-btn"></span>
+            <div id="user-form-btm" class="col-xs-1 visible-xs">
+              <span class="icon-pen"></span>
             </div>
-            <div class="col-md-12 xs-hidden">
-              <span class="upcase"><%= t('main_banner.call_to_action').html_safe %></span>
-              <%= form_for @user do |f| %>
-                <div class="form-group">
-                  <%= f.text_field :name, class: "form-control", placeholder: true %>
-                </div>
-
-                <div class="form-group">
-                  <%= f.text_field :surname, class: "form-control", placeholder: true %>
-                </div>
-
-                <div class="form-group">
-                  <%= f.email_field :email, class: "form-control", placeholder: true,
-                                    oninvalid: "this.setCustomValidity('Invalid email')",
-                                    oninput: "setCustomValidity('')",
-                                    pattern: '[^@]+@[^@]+\.[a-zA-Z]{2,6}',
-                                    required: true %>
-                </div>
-
-                <%= f.submit t('sign_up_now'), class: "btn btn-xs btn-success" %>
-              <% end %>
+            <div id="user-form-content" class="col-xs-8 col-xs-offset-2 col-md-10 col-md-offset-1">
+              <%= render 'shared/menu_form' %>
             </div>
           </div>
         </div>

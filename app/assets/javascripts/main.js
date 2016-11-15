@@ -1,5 +1,4 @@
 $(function () {
-	
 	'use strict';
 
 	// iPad and iPod detection	
@@ -37,10 +36,8 @@ $(function () {
 	};
 
   var userForm = function() {
-    $('body').on('click', '.user-home-form .hidden-md', function(event){
-      $('.user-home-form').toggleClass('visible');
-      $('.user-home-form .xs-hidden').toggleClass('col-xs-10');
-      $('.user-home-form .xs-hidden').toggleClass('active');
+    $(document).on('click', '#user-form-btm', function(event){
+      $("#user-home-form").toggleClass("toggled");
     });
   };
 
@@ -608,7 +605,6 @@ $(function () {
 
 	// animate-box
 	var contentWayPoint = function() {
-
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this).hasClass('animated') ) {
@@ -618,9 +614,7 @@ $(function () {
 			}
 
 		} , { offset: '75%' } );
-
 	};
-
 
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
@@ -653,11 +647,6 @@ $(function () {
 
 	};
 
-	
-	
-
-	
-
 	// Document on load.
 	$(function(){
 
@@ -687,6 +676,4 @@ $(function () {
 		navigationSection();
 
 	});
-
-
 }());

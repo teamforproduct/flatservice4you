@@ -84,105 +84,84 @@ body#flatservice {
     color: #fff;
   }
 
-  .user-home-form {
+  #user-home-form {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
-    padding: 50px 27px;
+    padding: 20px 15px;
     bottom: -5em;
     text-align: center;
-  }
-
-  .user-home-form .form-control {
-    background-color: rgba(208, 208, 208, 0.45);
-    border: 2px solid rgba(208, 208, 208, 0.07);
-    border-radius: 0;
-  }
-
-  .user-home-form .icon-pen {
-    font-size: 35px;
-  }
-
-  .user-home-form span {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 15px;
-    float: left;
-    text-align: left;
-  }
-
-  .user-home-form .form-control {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-
-  }
-
-  .user-home-form {
     ::-webkit-input-placeholder { text-transform: uppercase; }
     ::-moz-placeholder { text-transform: uppercase; }
     :-ms-input-placeholder { text-transform: uppercase; }
     :-moz-placeholder { text-transform: uppercase; }
-  }
 
-  #template-nt-hero .template-nt-intro p {
-    color: #fff;
-  }
-
-  .hidden-md {
-    display: none;
-  }
-
-  .upcase {
-    text-transform: uppercase;
-  }
-
-  @media screen and (max-width: 992px)  {
-    .xs-hidden {
-      display: none;
-      color: #000;
+    .form-control {
+      background-color: rgba(208, 208, 208, 0.45);
+      border: 2px solid rgba(208, 208, 208, 0.07);
+      border-radius: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200;
+      font-size: 15px;
     }
 
-    #template-nt-hero .xs-hidden.active {
-      display: block;
-      -webkit-transform: translateX(0px);
-      -moz-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-      -o-transform: translateX(0px);
-      transform: translateX(0px);
+    .icon-pen {
+      font-size: 35px;
     }
 
-    #template-nt-hero .user-home-form.visible {
-      right: 0;
-      background: #887E7B;
-      height: 400px;
-      -webkit-transform: translateX(0px);
-      -moz-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-      -o-transform: translateX(0px);
-      transform: translateX(0px);
+    span {
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      float: left;
+      text-align: left;
     }
 
-    .hidden-md {
-      display: block;
+    #user-form-content {
+      z-index: 2;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    #user-home-form {
+      margin-left: calc(100% - 18%);
+      position: fixed;
+      top: 100px;
+      max-height: 400px;
+
+      #user-form-btm {
+        margin: 5px 25px 0;
+        padding: 0 !important;
+        position: absolute;
+        z-index: 3;
+        cursor: pointer;
+      }
     }
 
-    #template-nt-hero .user-home-form {
-      position: absolute;
-      top: 55px;
-      right: 0;
-      padding: 30px 10px;
+    #user-home-form.toggled {
+      background-color: #827977;
+      margin-left: calc(0% + 35px);
+      margin-right: 0;
     }
 
     #template-nt-menu .template-nt-nav-toggle span {
       display: none;
     }
 
-    #template-nt-menu .template-nt-nav-toggle {
-      top: 0;
+    #template-nt-hero {
+      .template-nt-intro p {
+        color: #fff;
+      }
+
+      .visible-xs {
+        display: block!important;
+      }
     }
+  }
+
+  .upcase {
+    text-transform: uppercase;
   }
 }
