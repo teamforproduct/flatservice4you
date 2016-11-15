@@ -37,7 +37,7 @@ $(function () {
 	};
 
   var userForm = function() {
-    $('body').on('click touch', '.user-home-form .hidden-md', function(event){
+    $('body').on('click', '.user-home-form .hidden-md', function(event){
       $('.user-home-form').toggleClass('visible');
       $('.user-home-form .xs-hidden').toggleClass('col-xs-10');
       $('.user-home-form .xs-hidden').toggleClass('active');
