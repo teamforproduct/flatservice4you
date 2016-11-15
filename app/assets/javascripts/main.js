@@ -179,11 +179,13 @@ $(function () {
 			if ( $(window).scrollTop() > 150 ) {
 				$menu.addClass('sleep');
         $menu.find('img').hide();
+        $('#user-home-form').hide();
 			}
 
 			if ( $(window).scrollTop() < 500 ) {
 				$menu.removeClass('sleep');
         $menu.find('img').show();
+        $('#user-home-form').show();
 				$('#template-nt-offcanvass ul li').removeClass('active');
 				$('#template-nt-offcanvass ul li').first().addClass('active');
 			}
