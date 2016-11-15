@@ -12,7 +12,7 @@ en:
   main_banner:
     headline: Modern Car Maintenance. Four You.
     text: Do you have problems keeping your car maintained? Are you concerned about consequential damages? Do you want to make sure that your family is always safe on the road? So FlatService4You is your opportunity to get rid of all these concerncs.
-    call_to_action:	Sign now and get 30% discount for the first year for the oil service!
+    call_to_action:	Sign now and <b>get 30% discount</b> for the first year for the oil service!
   call_to_action: Sign up for 30% discount for your first oil service!
   activerecord:
     models:
@@ -70,3 +70,4 @@ en:
   days: Days
   minutes: Minutes
   menu_button: Menu
+  sign_up_now: Sign up now!

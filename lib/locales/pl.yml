@@ -12,7 +12,7 @@ pl:
   main_banner:
     headline: Nowoczesne utrzymanie samochodu. Dla Ciebie.
     text: Masz problemy z utrzymaniem Twojego samochodu w idealnym stanie? Obawiasz się poważnych napraw? Chcesz być pewien, że Twoja rodzina będzie zawsze bezpieczna podczas jazdy? FlatService4You jest szansą na pozbycie się tych zmartwień.
-    call_to_action: Zarejestruj się teraz i odbierz rabat 30 % na pierwszą wymianę oleju!
+    call_to_action: Zarejestruj się teraz i odbierz <b>rabat 30 %</b> na pierwszą wymianę oleju!
   activerecord:
     models:
       user:
@@ -69,3 +69,4 @@ pl:
   days:
   minutes:
   menu_button:
+  sign_up_now:

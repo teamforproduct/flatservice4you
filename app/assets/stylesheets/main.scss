@@ -101,12 +101,31 @@ body#flatservice {
     border-radius: 0;
   }
 
-  .user-home-form span {
-    color: #fff;
-  }
-
   .user-home-form .icon-pen {
     font-size: 35px;
+  }
+
+  .user-home-form span {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    float: left;
+    text-align: left;
+  }
+
+  .user-home-form .form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+
+  }
+
+  .user-home-form {
+    ::-webkit-input-placeholder { text-transform: uppercase; }
+    ::-moz-placeholder { text-transform: uppercase; }
+    :-ms-input-placeholder { text-transform: uppercase; }
+    :-moz-placeholder { text-transform: uppercase; }
   }
 
   #template-nt-hero .template-nt-intro p {
@@ -115,6 +134,10 @@ body#flatservice {
 
   .hidden-md {
     display: none;
+  }
+
+  .upcase {
+    text-transform: uppercase;
   }
 
   @media screen and (max-width: 992px)  {
