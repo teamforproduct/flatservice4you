@@ -138,7 +138,7 @@ body#flatservice {
       max-height: 400px;
 
       #user-form-btm {
-        margin: 5px 25px 0;
+        margin: 5px 15px 0;
         padding: 0 !important;
         position: absolute;
         z-index: 3;
@@ -167,6 +167,10 @@ body#flatservice {
         display: block!important;
       }
     }
+  }
+
+  .template-nt-client img {
+    max-width: 120px;
   }
 
   .upcase {
