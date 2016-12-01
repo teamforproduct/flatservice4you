@@ -1,15 +1,15 @@
 <div class="row">
   <span class="upcase"><%= t('main_banner.call_to_action').html_safe %></span>
-  <%= form_for @user, html: {class: 'form-horizontal col-xs-12 col-md-offset-1'} do |f| %>
-    <div class="form-group col-xs-12">
+  <%= form_for @user, html: {class: 'form-horizontal'} do |f| %>
+    <div class="form-group">
       <%= f.text_field :name, class: "form-control", placeholder: true %>
     </div>
 
-    <div class="form-group col-xs-12">
+    <div class="form-group">
       <%= f.text_field :surname, class: "form-control", placeholder: true %>
     </div>
 
-    <div class="form-group col-xs-12">
+    <div class="form-group">
       <%= f.email_field :email, class: "form-control", placeholder: true,
                         oninvalid: "this.setCustomValidity('Invalid email')",
                         oninput: "setCustomValidity('')",
@@ -17,8 +17,12 @@
                         required: true %>
     </div>
 
-    <div class="form-group col-xs-12">
+    <div class="form-group">
       <%= f.submit t('sign_up_now'), class: "btn btn-xs btn-success" %>
     </div>
   <% end %>
+
+  <div class="form-group">
+    <%= link_to t('sing_in_with_facebook'), "/auth/facebook", id: "sign_in" %>
+  </div>
 </div>

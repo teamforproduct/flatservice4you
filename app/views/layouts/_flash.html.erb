@@ -1,0 +1,14 @@
+<%- if flash %>
+  <%- flash.each do |type, content| %>
+
+    <div class="col-xs-11 col-sm-4 alert alert-<%= flash_class(type) %> home-flash">
+      <%= content %>
+      <button class="close" type="button" data-dismiss="alert" aria-hidden="true">×</button>
+    </div>
+  <% end %>
+<% end %>
+
+
+<script>
+  setTimeout("$('.home-flash').fadeOut('slow')", 5000)
+</script>

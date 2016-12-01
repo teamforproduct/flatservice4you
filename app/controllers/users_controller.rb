@@ -1,8 +1,16 @@
 class UsersController < ApplicationController
   def create
     @user = User.create(user_params)
+    flash[:success] = t('user_success_create') if @user
 
     redirect_to root_path
+  end
+
+  def facebook
+    @user = User.from_omniauth(env["omniauth.auth"])
+    flash[:success] = t('user_success_create') if @user
+
+    redirect_to root_url
   end
 
   private
