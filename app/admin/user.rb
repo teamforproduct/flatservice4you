@@ -1,7 +1,7 @@
 ActiveAdmin.register User do
   menu priority: 0, label: proc{ I18n.t("active_admin.user_index") }
 
-  permit_params :name, :surname, :email, car_attributes: [:id, :make, :model, :engine, :registration_no, :vin,
+  permit_params :name, :surname, :email, :gender, :location, car_attributes: [:id, :make, :model, :engine, :registration_no, :vin,
                                                            :actual_mileage, :yearly_mileage, :driving_profile]
 
   index do
@@ -10,6 +10,13 @@ ActiveAdmin.register User do
     column :name
     column :surname
     column :email
+    column :gender
+    column :location
+    column :links do |u|
+      u.providers.map do |provider|
+        link_to provider.provider, provider.link, target: :_blank
+      end.join(',').html_safe
+    end
     column :created_at
     actions
   end
@@ -17,6 +24,7 @@ ActiveAdmin.register User do
   filter :name
   filter :surname
   filter :email
+  filter :location
   filter :created_at
 
   show do
@@ -24,8 +32,11 @@ ActiveAdmin.register User do
       row :name
       row :surname
       row :email
+      row :gender
+      row :location
       row :created_at
       row :updated_at
+      row :providers
       panel "Car" do
         table_for user.car do
           column :make
@@ -46,6 +57,8 @@ ActiveAdmin.register User do
       f.input :name
       f.input :surname
       f.input :email
+      f.input :gender, as: :select2, collection: User.genders.keys
+      f.input :location
 
       f.has_many :car do |car|
         car.input :make

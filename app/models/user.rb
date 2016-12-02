@@ -6,22 +6,25 @@ class User < ActiveRecord::Base
 
   validates :email, presence: true
 
+  enum gender: ['male', 'female']
 
   def self.from_omniauth(auth)
     user = joins(:providers).find_by(providers: {provider: auth.provider, uid: auth.uid})
 
     unless user
-      name, surname = auth.info.name.split(' ')
       user = User.create(
         email: auth.extra.raw_info.email || "change@me-#{auth.uid}-#{auth.provider}.com",
-        name: name,
-        surname: surname
+        name: auth.info.first_name,
+        surname: auth.info.last_name,
+        gender: (User.genders.keys & [auth.extra.raw_info.gender]).first,
+        location: begin auth.extra.raw_info.location[:name] rescue '' end
       )
 
       user.providers.create({
                               provider: auth.provider,
                               uid: auth.uid,
-                              oauth_token: auth.credentials.token
+                              oauth_token: auth.credentials.token,
+                              link: auth.extra.raw_info.link
                             })
     end
 
