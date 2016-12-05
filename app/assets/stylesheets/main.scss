@@ -145,6 +145,18 @@ body#flatservice {
     right: 10px;
   }
 
+  .fb_btn {
+    background: #627aac;
+    border: 1px #29447e solid;
+    padding: 6px!important;
+    letter-spacing: 0;
+
+    i {
+      margin-top: 0!important;
+      font-size: 15px!important;
+    }
+  }
+
   @media screen and (max-width: 992px) {
     #user-home-form {
       width: auto!important;
@@ -187,11 +199,18 @@ body#flatservice {
 
     #user-home-form.toggled {
       width: 83.3333%!important;
-      background-color: #827977;
+      background: none;
       margin: 0 8.33333%;
 
       #user-form-content {
         display: block;
+      }
+
+      #user-home-form-responsive {
+        width: 250px;
+        background-color: #827977;
+        margin: 0 auto;
+        padding: 10px 20px;
       }
     }
 
