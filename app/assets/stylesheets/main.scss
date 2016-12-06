@@ -11,7 +11,7 @@ body#flatservice {
     }
 
     p {
-      color: #fff;
+      color: #2f98c8;
     }
   }
 
@@ -99,10 +99,10 @@ body#flatservice {
     padding: 20px 15px;
     top: 5em;
     text-align: center;
-    ::-webkit-input-placeholder { text-transform: uppercase; }
-    ::-moz-placeholder { text-transform: uppercase; }
-    :-ms-input-placeholder { text-transform: uppercase; }
-    :-moz-placeholder { text-transform: uppercase; }
+    ::-webkit-input-placeholder { text-transform: uppercase; color: #2f98c8 }
+    ::-moz-placeholder { text-transform: uppercase; color: #2f98c8 }
+    :-ms-input-placeholder { text-transform: uppercase; color: #2f98c8 }
+    :-moz-placeholder { text-transform: uppercase; color: #2f98c8 }
 
     .form-control {
       background-color: rgba(208, 208, 208, 0.45);
@@ -125,7 +125,7 @@ body#flatservice {
     }
 
     span {
-      color: #fff;
+      color: #2f98c8;
       font-family: 'Open Sans', sans-serif;
       font-weight: 100;
       font-size: 15px;
@@ -228,7 +228,7 @@ body#flatservice {
       background-attachment: scroll!important;
 
       .template-nt-intro p {
-        color: #fff;
+        color: #2f98c8;
       }
 
       .visible-xs {

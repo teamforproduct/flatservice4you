@@ -10,8 +10,8 @@ en:
     blog: Blog
     social:	Connect with us
   main_banner:
-    headline: Modern Car Maintenance. Four You.
-    text: Do you have problems keeping your car maintained? Are you concerned about consequential damages? Do you want to make sure that your family is always safe on the road? So FlatService4You is your opportunity to get rid of all these concerncs.
+    headline: <h2>Modern Car Maintenance.</h2> <h2>Four You.</h2>
+    text: <p>Do you have problems keeping your car maintained?</p><p>Are you concerned about consequential damages?</p><p>Do you want your family always safe on the road?</p><p>So FlatService4You is your opportunity to get rid of all these concerns.</p>
     call_to_action:	Sign now and <b>get 30% discount</b> for the first year for the oil service!
   call_to_action: Sign up for 30% discount for your first oil service!
   activerecord:
