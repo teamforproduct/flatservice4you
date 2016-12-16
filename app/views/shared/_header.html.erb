@@ -2,22 +2,32 @@
   <div class="template-nt-intro">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 template-nt-text">
+        <div class="col-md-7 template-nt-text">
           <div class="to-animate-off intro-animate-1"><%= t('main_banner.headline').html_safe %></div>
           <p class="to-animate-off intro-animate-2"><%= t('main_banner.text').html_safe%></p>
         </div>
-        <div id="user-home-form" class="col-xs-10 col-xs-offset-1 col-md-4 col-sm-4">
-          <div id="user-home-form-responsive">
-            <div class="row">
-              <div id="user-form-btm" class="col-xs-2 visible-xs">
-                <span class="icon-pen"></span>
-              </div>
-              <div id="user-form-content" class="col-xs-8 col-md-10 col-md-offset-1">
-                <%= render 'shared/menu_form' %>
-              </div>
-            </div>
-          </div>
+
+        <div class="col-md-5 text-center" id="register-form">
+          <%= render 'shared/menu_form' %>
         </div>
+        <!--<div id="user-home-form" class="col-xs-10 col-xs-offset-1 col-md-4 col-sm-4">-->
+          <!--<div id="user-home-form-responsive">-->
+            <!--<div class="row">-->
+              <!--&lt;!&ndash;<div id="user-form-btm" class="col-xs-2 visible-xs">&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="icon-pen"></span>&ndash;&gt;-->
+              <!--&lt;!&ndash;</div>&ndash;&gt;-->
+              <!--<div id="user-form-content" class="col-xs-6 col-sm-8 col-md-10 col-md-offset-1">-->
+                <!--render 'shared/menu_form'-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="col-xs-12 col-sm-12 col-md-4">-->
+          <!--<div class="col-xs-6 col-sm-8 col-md-10 col-xs-offset-2 col-sm-offset-2 col-md-offset-1">-->
+            <!-- -->
+          <!--</div>-->
+        <!--</div>-->
         <div class="col-md-6 text-right template-nt-intro-img to-animate-off intro-animate-4">
         </div>
       </div>

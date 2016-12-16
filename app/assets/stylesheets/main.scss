@@ -5,13 +5,50 @@ body#flatservice {
   }
 
   #template-nt-hero .template-nt-intro {
+    padding-bottom: 100px;
+    padding-top: 100px;
+
     .template-nt-text {
-      height: auto;
-      padding: 0 3em 3em 3em;
+      bottom: 0;
     }
 
     p {
       color: #2f98c8;
+    }
+
+    .register-form {
+      background-color: #333;
+      border: 1px solid #333;
+      margin: 10px 15px 0 15px;
+      padding: 35px 15px;
+
+      .col-md-12 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    .form-control {
+      border: 1px solid #bbb;
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: 300;
+      height: 48px;
+      margin-bottom: 20px;
+      padding: 6px 12px;
+      width: 100%;
+      font-family: inherit;
+    }
+
+    .form-control::-moz-placeholder {
+      color: #999;
+      opacity: 1;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+      background-color: #eee;
+      color: #222;
+      transition: all 300ms ease-in-out 0s;
     }
   }
 
@@ -158,6 +195,17 @@ body#flatservice {
   }
 
   @media screen and (max-width: 992px) {
+    .template-nt-intro {
+      #register-form {
+        margin: 50px auto 0;
+        width: 66%;
+      }
+    }
+
+    #template-nt-hero {
+      height: 100%;
+    }
+
     #user-home-form {
       width: auto!important;
       margin: 0;
@@ -167,15 +215,15 @@ body#flatservice {
       right: 0;
       height: auto;
 
-      #user-form-btm {
-        padding: 5px 5px 0 5px;
-        z-index: 3;
-        cursor: pointer;
-      }
+      //#user-form-btm {
+      //  padding: 5px 5px 0 5px;
+      //  z-index: 3;
+      //  cursor: pointer;
+      //}
 
-      #user-form-content {
-        display: none;
-      }
+      //#user-form-content {
+      //  display: none;
+      //}
 
       .form-horizontal {
         .form-group {
@@ -243,5 +291,38 @@ body#flatservice {
 
   .upcase {
     text-transform: uppercase;
+  }
+  @media screen and (max-width: 640px) {
+    .template-nt-intro {
+      #register-form {
+        width: 78%;
+      }
+    }
+  }
+
+  @media screen and (max-width : 479px){
+    .template-nt-intro {
+      #register-form {
+        width: 90%;
+      }
+
+      #register-form .form-control {
+        height: 42px;
+      }
+      #register-form span {
+        font-size: 18px;  line-height: 24px;
+      }
+    }
+  }
+
+  @media screen and (max-width : 320px){
+    .template-nt-intro {
+      #register-form {
+        width: 100%;
+      }
+      #register-form span {
+        line-height: 22px;
+      }
+    }
   }
 }
