@@ -127,54 +127,6 @@ body#flatservice {
     color: #fff;
   }
 
-  #user-home-form {
-    background: rgba(255, 255, 255, 0.5);
-    width: 30.5%!important;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 15px;
-    top: 5em;
-    text-align: center;
-    ::-webkit-input-placeholder { text-transform: uppercase; color: #2f98c8 }
-    ::-moz-placeholder { text-transform: uppercase; color: #2f98c8 }
-    :-ms-input-placeholder { text-transform: uppercase; color: #2f98c8 }
-    :-moz-placeholder { text-transform: uppercase; color: #2f98c8 }
-
-    .form-control {
-      background-color: rgba(208, 208, 208, 0.45);
-      border: 2px solid rgba(208, 208, 208, 0.07);
-      border-radius: 0;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 200;
-      font-size: 15px;
-    }
-
-    .form-horizontal {
-      .form-group {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-      }
-    }
-
-    .icon-pen {
-      font-size: 35px;
-    }
-
-    span {
-      color: #2f98c8;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 100;
-      font-size: 15px;
-      float: left;
-      text-align: left;
-    }
-
-    #user-form-content {
-      z-index: 2;
-    }
-  }
-
   .home-flash {
     position: fixed;
     z-index: 1002;
@@ -204,62 +156,6 @@ body#flatservice {
 
     #template-nt-hero {
       height: 100%;
-    }
-
-    #user-home-form {
-      width: auto!important;
-      margin: 0;
-      padding: 0 20px;
-      position: absolute;
-      top: 80px;
-      right: 0;
-      height: auto;
-
-      //#user-form-btm {
-      //  padding: 5px 5px 0 5px;
-      //  z-index: 3;
-      //  cursor: pointer;
-      //}
-
-      //#user-form-content {
-      //  display: none;
-      //}
-
-      .form-horizontal {
-        .form-group {
-          margin-left: 0!important;
-          margin-right: 0!important;
-          margin-bottom: 15px;
-        }
-        .form-control {
-          height: 36px!important;
-        }
-
-        .btn {
-          margin-bottom: 0;
-        }
-      }
-
-      span {
-        font-size: 13px;
-      }
-    }
-
-    #user-home-form.toggled {
-      width: 83.3333%!important;
-      background: none;
-      margin: 0 8.33333%;
-
-      #user-form-content {
-        display: block;
-      }
-
-      #user-home-form-responsive {
-        width: 250px;
-        background-color: #827977;
-        margin: 0 auto;
-        padding: 10px 20px;
-      }
     }
 
     #template-nt-menu .template-nt-nav-toggle span {
