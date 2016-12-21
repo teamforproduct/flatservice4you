@@ -221,4 +221,37 @@ body#flatservice {
       }
     }
   }
+
+
+  #videosCarousel {
+    position: relative;
+    z-index: 1;
+
+    .owl-dots {
+      .owl-dot.active span, .owl-dot:hover span.active span {
+        background-color: #1295c3;
+      }
+
+      .owl-dot span {
+        background-color: #808080;
+      }
+    }
+
+    .responsive-promo-video {
+      width: 100%;
+
+      video {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+      }
+    }
+
+    .center .responsive-promo-video video {
+      z-index: 100;
+    }
+
+  }
 }
+
+

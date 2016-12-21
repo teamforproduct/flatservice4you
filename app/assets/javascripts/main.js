@@ -55,37 +55,46 @@ $(function () {
 	// Owl Carousel For Testimony
 	var carouselTestimony = function() {
 
-		var owl = $(".owl-carousel");
+		var owl = $(".block-carousel");
 		
 		owl.owlCarousel({
 			items: 1,
-		    margin: 0,
-		    responsiveClass: true,
-		    loop: true,
-		    nav: true,
-		    dots: true,
-		    autoplay: true,
-		    smartSpeed: 500,
-			responsive:{
-				0:{
-					nav:false
-				},
-				480: {
-					nav:false
-				},
-				768:{
-					nav:false
-				},
-				1000:{
-					nav:true,
-				}
-			},
-		    navText: [
-		      "<i class='fa fa-angle-left owl-direction'></i>",
-		      "<i class='fa fa-angle-right owl-direction'></i>"
-	     	]
+      margin: 0,
+      responsiveClass: true,
+      loop: true,
+      nav: true,
+      dots: true,
+      autoplay: true,
+      smartSpeed: 500,
+      navText: [
+        "<i class='fa fa-angle-left owl-direction'></i>",
+        "<i class='fa fa-angle-right owl-direction'></i>"
+      ]
 		});
 	};
+
+  var video_carousel = function(){
+    var video_blocks = $('#videosCarousel');
+
+    video_blocks.owlCarousel({
+      items: 1,
+      autoplay: false,
+      smartSpeed: 1200,
+      autoplayHoverPause:true,
+      center: true,
+      loop: true,
+      nav: true,
+      responsive:{
+        600:{
+          items: 2
+        }
+      },
+      navText: [
+        "<i class='fa fa-angle-left owl-direction'></i>",
+        "<i class='fa fa-angle-right owl-direction'></i>"
+      ]
+    });
+  };
 
 	// Fixed footer 
 	var footerFixed = function() {
@@ -657,6 +666,7 @@ $(function () {
 		footerFixed();
 		faqsAccordion();
 		carouselTestimony();
+    video_carousel();
 		clickMenu();
 		HeaderToggle();
 
