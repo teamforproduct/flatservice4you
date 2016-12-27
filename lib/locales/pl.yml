@@ -73,3 +73,46 @@ pl:
   home_index: Strona główna
   sing_in_with_facebook:
   user_success_create:
+  products:
+    product_1:
+      name: Oil Service
+      short_description: One complete oil service per year to keep your engine fresh
+      per_month: 9.99
+      per_year: 107.99
+      content_1: Motor Oil
+      content_2: Oil Filter
+      content_3: Labour Costs
+      content_4: FSFY Engine Protect
+      content_5: FSFY Uber Voucher
+    product_2:
+      name: Tire Service
+      short_description:
+      per_month:
+      per_year:
+      content_1: Safe tire keeping
+      content_2: Tire change
+      content_3: Wheel balancing
+      content_4: Labour Costs
+      content_5: FS4Y Tire Protect Insurance
+    product_3:
+      name: Small Inspection
+      short_description:
+      per_month:
+      per_year:
+      content_1: Visual checks
+      content_2: Function test of electrics
+      content_3: Air conditon check
+      content_4: Labour costs
+      content_5: FS4Y Service Check
+    product_4:
+      name: General Inspection
+      short_description:
+      per_month:
+      per_year:
+      content_1: Visual checks
+      content_2: Function test of electrics
+      content_3: Change of all needed fluids and parts according to manufacturer instruction
+      content_4: Labour costs
+      content_5: FS4Y Uber Voucher
+    subscribe_now: Subscribe Now
+    secure_purchase: Secure Purchase

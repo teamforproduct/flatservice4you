@@ -179,6 +179,13 @@ body#flatservice {
         display: block!important;
       }
     }
+
+    #template-nt-pricing {
+      .col-md-3, .col-sm-6, .col-xs-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
   }
 
   .template-nt-client img {
@@ -251,6 +258,137 @@ body#flatservice {
       z-index: 100;
     }
 
+  }
+
+  // Price blocks
+
+  #template-nt-pricing {
+    h4 {
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 26px;
+      font-style: normal;
+      color: #fff;
+    }
+
+    p {
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    .template-nt-figure  {
+      background: #3fa9d0;
+      border-radius: 0;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .product-header {
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      text-align: left;
+      width: 100%;
+      border-bottom: 1px solid #fff;
+    }
+
+    .product-price {
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      text-align: left;
+      width: 100%;
+
+      .widget-price {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        padding: 0;
+      }
+
+      .widget-price-icon {
+        bottom: 18px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 20px;
+
+        img {
+          width: 50px;
+        }
+      }
+    }
+
+    .product-content-section {
+      background: rgb(159,197,57);
+
+      .product-content-icon img {
+        width: 25px;
+      }
+    }
+
+    .product-footer {
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      text-align: center;
+      width: 100%;
+
+      .button_to input {
+        margin: 0;
+      }
+
+      p {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 900;
+        margin: 0;
+        padding: 3px 0 0;
+        text-transform: uppercase;
+        padding: 10px 0 0;
+      }
+    }
+
+    .col-md-3, .col-sm-6, .col-xs-12 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        cursor: default;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: normal;
+        list-style: outside none none;
+        padding: 10px 0;
+        position: relative;
+        text-align: left;
+        margin: 0 10px;
+        border-top: 1px solid #fff;
+      }
+
+      li:first-child {
+        border-top: medium none;
+      }
+    }
   }
 }
 
