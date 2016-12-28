@@ -323,7 +323,9 @@ body#flatservice {
       }
 
       .widget-price-icon {
-        bottom: 18px;
+        background: rgb(19, 151, 178);
+        border-radius: 50%;
+        bottom: 10px;
         box-sizing: border-box;
         display: block;
         margin: 0;
@@ -331,8 +333,9 @@ body#flatservice {
         position: absolute;
         right: 20px;
 
-        img {
-          width: 50px;
+        i {
+          font-size: 50px;
+          display: block;
         }
       }
     }
@@ -340,7 +343,7 @@ body#flatservice {
     .product-content-section {
       background: rgb(159,197,57);
 
-      .product-content-icon img {
+      .product-content-label img {
         width: 25px;
       }
     }
