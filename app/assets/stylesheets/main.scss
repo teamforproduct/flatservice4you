@@ -332,6 +332,10 @@ body#flatservice {
         padding: 0;
         position: absolute;
         right: 20px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
 
         i {
           font-size: 50px;
