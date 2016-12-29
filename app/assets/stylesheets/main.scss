@@ -348,6 +348,31 @@ body#flatservice {
       }
     }
 
+    .tooltip.top {
+      left: 0!important;
+
+      .tooltip-arrow {
+        border-top-color: #fdfdfd;
+        bottom:0;
+        left:10%!important;
+        margin-left:-5px;
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+      }
+
+      .tooltip-inner{
+        max-width: 100%;
+        width: 100%;
+        padding: 10px 40px 10px 20px;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        background: #fdfdfd;
+        color: #92a3b0;
+      }
+    }
+
     .product-footer {
       box-sizing: border-box;
       display: block;
@@ -398,6 +423,10 @@ body#flatservice {
         border-top: medium none;
       }
     }
+  }
+
+  .inline {
+    display: inline;
   }
 }
 

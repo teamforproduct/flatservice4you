@@ -84,6 +84,11 @@ pl:
       content_3: Labour Costs
       content_4: FSFY Engine Protect
       content_5: FSFY Uber Voucher
+      tooltip_1: Comming soon
+      tooltip_2: Comming soon
+      tooltip_3: Comming soon
+      tooltip_4: Comming soon
+      tooltip_5: Comming soon
     product_2:
       name: Tire Service
       short_description:
@@ -94,6 +99,11 @@ pl:
       content_3: Wheel balancing
       content_4: Labour Costs
       content_5: FS4Y Tire Protect Insurance
+      tooltip_1: Comming soon
+      tooltip_2: Comming soon
+      tooltip_3: Comming soon
+      tooltip_4: Comming soon
+      tooltip_5: Comming soon
     product_3:
       name: Small Inspection
       short_description:
@@ -104,6 +114,11 @@ pl:
       content_3: Air conditon check
       content_4: Labour costs
       content_5: FS4Y Service Check
+      tooltip_1: Comming soon
+      tooltip_2: Comming soon
+      tooltip_3: Comming soon
+      tooltip_4: Comming soon
+      tooltip_5: Comming soon
     product_4:
       name: General Inspection
       short_description:
@@ -114,5 +129,10 @@ pl:
       content_3: Change of all needed fluids and parts according to manufacturer instruction
       content_4: Labour costs
       content_5: FS4Y Uber Voucher
+      tooltip_1: Comming soon
+      tooltip_2: Comming soon
+      tooltip_3: Comming soon
+      tooltip_4: Comming soon
+      tooltip_5: Comming soon
     subscribe_now: Subscribe Now
     secure_purchase: Secure Purchase
