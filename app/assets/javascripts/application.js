@@ -26,6 +26,9 @@
 //= require jquery.countTo
 //= require main
 //= require chat
+//= require SmoothScroll
+//= require touchSwipe
+//= require plugj
 
 //= require_tree .
 
