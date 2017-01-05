@@ -1,58 +1,235 @@
 <div id="template-nt-products" data-section="products">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 template-nt-section-heading text-center">
-        <h2 class="template-nt-lead animate-single product-animate-1"><%= t('product')%></h2>
-        <p class="template-nt-sub animate-single product-animate-2">The Gun Digest rifle section is your source for bolt-action, semi-automatic, hunting and competition rifle information.</p>
+  <div class="sz_shop_slider_wrapper">
+    <div class="sz_shop_slider_header">
+      <h1>Products</h1>
+    </div>
+    <div class="carousel slide sz_easeOutInCubic sz_shop_slider_control sz_shop_slider_indicators sz_shop_slider_trig thumb_scroll_x" data-duration="2000" data-interval="false" data-ride="carousel" id="sz_shop_slider_col_4" data-pause="hover">
+      <ol class="carousel-indicators">
+        <li data-slide-to="0" data-target="#sz_shop_slider_col_4" class="active">apple</li>
+        <li data-slide-to="1" data-target="#sz_shop_slider_col_4">samsung</li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" style="transition-duration: 2000ms;">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_1.jpeg') %>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="0" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_2.jpeg') %>
+                  <span>sale</span>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="1" data-toggle="modal"><span class="fa fa-search"></span></a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_3.jpeg') %>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="2" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_4.jpeg') %>
+                  <span>sale</span>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="3" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="transition-duration: 2000ms;">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_1.jpeg') %>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="4" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_2.jpeg') %>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="5" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_3.jpeg') %>
+                  <span>sale</span>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="6" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="sz_shop_slider_trig_wrap">
+                <div class="sz_shop_slider_trig_img">
+                  <%= image_tag('sliders/test_4.jpeg') %>
+                  <div class="sz_shop_slider_trig_btn">
+                    <a href="#sz_shop_slider_4_col" data-backdrop="true" data-slide-to="7" data-toggle="modal">
+                      <span class="fa fa-search"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sz_shop_slider_trig_txt">
+                  <a href="#">category</a>
+                  <ul>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star"></span></li>
+                    <li><span class="fa fa-star-half-o"></span></li>
+                    <li><span class="fa fa-star-o"></span></li>
+                  </ul>
+                  <div class="sz_shop_slider_trig_name">
+                    <a href="#">Name and title of the product</a>
+                    <span>$150.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
-      <!--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">-->
-        <!--<a href="images/rifle2.jpg" class="template-nt-figure to-animate-off image-popup">-->
-          <!--<figure>-->
-            <!--<%= image_tag('rifle2.jpg', class: "img-responsive")%>-->
-          <!--</figure>-->
-          <!--<h3 class="template-nt-figure-lead">Savage Arms</h3>-->
-          <!--<p class="template-nt-figure-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut leo non turpis ultrices condimentum. Suspendisse accumsan cursus laoreet.</p>-->
-        <!--</a>-->
-      <!--</div>-->
-      <!--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">-->
-        <!--<a href="images/rifle3.jpg" class="template-nt-figure to-animate-off image-popup">-->
-          <!--<figure>-->
-            <!--<%= image_tag('rifle3.jpg', class: "img-responsive")%>-->
-          <!--</figure>-->
-          <!--<h3 class="template-nt-figure-lead">Benelli</h3>-->
-          <!--<p class="template-nt-figure-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut leo non turpis ultrices condimentum. Suspendisse accumsan cursus laoreet.</p>-->
-        <!--</a>-->
-      <!--</div>-->
-      <!--<div class="clearfix visible-sm-block"></div>-->
-      <!--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">-->
-        <!--<a href="images/rifle4.jpg" class="template-nt-figure to-animate-off image-popup">-->
-          <!--<figure>-->
-            <!--<%= image_tag('rifle4.jpg', class: "img-responsive")%>-->
-          <!--</figure>-->
-          <!--<h3 class="template-nt-figure-lead">Mossberg</h3>-->
-          <!--<p class="template-nt-figure-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut leo non turpis ultrices condimentum. Suspendisse accumsan cursus laoreet.</p>-->
-        <!--</a>-->
-      <!--</div>-->
-      <!--<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">-->
-        <!--<a href="images/rifle17.jpg" class="template-nt-figure to-animate-off image-popup">-->
-          <!--<figure>-->
-            <!--<%= image_tag('rifle17.jpg', class: "img-responsive")%>-->
-          <!--</figure>-->
-          <!--<h3 class="template-nt-figure-lead">Beretta</h3>-->
-          <!--<p class="template-nt-figure-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut leo non turpis ultrices condimentum. Suspendisse accumsan cursus laoreet.</p>-->
-        <!--</a>-->
-      <!--</div>-->
-
-      <!--<div class="clearfix visible-sm-block"></div>-->
-
-      <!--<div class="template-nt-spacer template-nt-spacer-sm"></div>-->
-
-      <!--<div class="col-md-4 col-md-offset-4 text-center to-animate-off">-->
-        <!--<a href="" class="btn btn-primary">View All Products</a>-->
-      <!--</div>-->
+      <a href="#sz_shop_slider_col_4" class="carousel-control left" data-slide="prev" role="button"><span class="fa fa-angle-left"></span> </a>
+      <a href="#sz_shop_slider_col_4" class="carousel-control right" data-slide="next" role="button"><span class="fa fa-angle-right"></span></a>
     </div>
   </div>
 </div>
