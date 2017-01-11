@@ -4,15 +4,17 @@ pl:
     admin_user_index:
   menu:
     home: Strona główna
+    what_is_fs4y:
     products: Produkty
     price: Ceny
     faq: FAQ - najczęściej zadawane pytania
     blog: Blog
     social: Kontakt
+    register:
   main_banner:
-    headline: Nowoczesne utrzymanie samochodu. Dla Ciebie.
-    text: Masz problemy z utrzymaniem Twojego samochodu w idealnym stanie? Obawiasz się poważnych napraw? Chcesz być pewien, że Twoja rodzina będzie zawsze bezpieczna podczas jazdy? FlatService4You jest szansą na pozbycie się tych zmartwień.
-    call_to_action: Zarejestruj się teraz i odbierz <b>rabat 30 %</b> na pierwszą wymianę oleju!
+    headline: <h2>Nowoczesne utrzymanie samochodu.</h2><h2>Dla Ciebie.</h2>.
+    text: <p>Masz problemy z utrzymaniem Twojego samochodu w idealnym stanie?</p><p>Obawiasz się poważnych napraw?</p><p>Chcesz być pewien, że Twoja rodzina będzie zawsze bezpieczna podczas jazdy?</p><p>FlatService4You jest szansą na pozbycie się tych zmartwień.</p>
+    call_to_action: Zarejestruj się teraz i odbierz rabat 30 % na pierwszą wymianę oleju!
   activerecord:
     models:
       user:
@@ -46,19 +48,33 @@ pl:
     headline: Usuń denerwujące usterki w Twoim samochodzie
     text: Istnieje wiele drobnych usterek, które mogą całkowicie odebrać przyjemność z jazdy i wpłynąć na komfort użytkowania Twojego samochodu. My pomożemy Ci usunąć je szybko i niedrogo.
     reason_1: Nie chcesz płacić za całą usługę na raz?
+    reason_1_text:
     reason_2: Często zapominasz o obowiązkowej obsłudze Twojego samochodu?
+    reason_2_text:
     reason_3: Nie ufasz warsztatom samochodowym?
+    reason_3_text:
     reason_4: Boisz się o bezpieczeństwo Twojej rodziny?
+    reason_4_text:
   solution:
     headline: Zapewnimy rutynową obsługę i utrzymanie Twojego samochodu
     text: Wybierz jedną z naszych usług, płać niski abonament i bądź pewien, że wszystko będzie zrobione na czas. Skorzystaj z vouchera i umów wizytę w jednym z naszych certyfikowanych serwisów.
     reason_1: Poczuj się wolny, płacąc tylko niski abonament miesięczny
+    reason_1_text:
     reason_2: Bądź pewien, że przypomnimy ci na czas o zbliżąjących się terminach.
-    reason_3: Wybierz na naszym portalu jeden ze sprawdzonych, certfikowanych serwisów i o nic więcej się nie martw!
+    reason_2_text:
+    reason_3: Bądź pewien że Twoja rodzina podróżuje bezpiecznym, sprawdzonym smochodem.
+    reason_3_text: Dokładnie opisujemy, co zostało zrobione i kontrolujemy pracę serwisów.
     reason_4: Bądź pewien że Twoja rodzina podróżuje bezpiecznym, sprawdzonym smochodem.
+    reason_4_text:
     reason_5: Rekomendujemy tylko solidne serwisy.
     reason_6: Dokładnie opisujemy, co zostało zrobione i kontrolujemy pracę serwisów.
   video_headline: Obejrzyj krótki film i dowiedz się więcej o naszym portalu
+  video_text:
+  product_headline:
+  product_text:
+  faq_text:
+  blog_headline:
+  blog_text:
   product: Produkt
   price: Cena
   team: Zespół
@@ -136,3 +152,12 @@ pl:
       tooltip_5: Comming soon
     subscribe_now: Subscribe Now
     secure_purchase: Secure Purchase
+  teams:
+    member_1: Barbara
+    member_1_text:
+    member_2: Tufan
+    member_2_text:
+    member_3: Maciej
+    member_3_text:
+    member_4: Ronny
+    member_4_text:

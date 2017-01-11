@@ -1,8 +1,9 @@
-<div id="template-nt-promo">
+<div id="template-nt-promo" data-section="promo">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-8 col-md-offset-2 template-nt-section-heading text-center">
         <h2 class="template-nt-lead to-animate-off"> <%= t('video_headline')%> </h2>
+        <p class="template-nt-sub to-animate fadeInUp animated"><%= t('video_text')%></p>
       </div>
 
       <%= video_tag(["promo.mp4"], style: 'width: 80% ', controls: true) %>

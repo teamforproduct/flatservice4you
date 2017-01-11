@@ -4,15 +4,17 @@ en:
     admin_user_index: Admin user
   menu:
     home: Home
+    what_is_fs4y: What is FlatService4You?
     products: Products
     price:	Price
     faq: FAQ
     blog: Blog
     social:	Connect with us
+    register: Register Now
   main_banner:
     headline: <h2>Modern Car Maintenance.</h2> <h2>Four You.</h2>
-    text: <p>Do you have problems keeping your car maintained?</p><p>Are you concerned about consequential damages?</p><p>Do you want your family always safe on the road?</p><p>So FlatService4You is your opportunity to get rid of all these concerns.</p>
-    call_to_action:	Sign now and <b>get 30% discount</b> for the first year for the oil service!
+    text: <p>You have problems keeping your car maintained?</p><p>Our car repair services help maintaining your car on a regular basis.</p>
+    call_to_action:	Sign now and get<b>get 30% discount</b> for the first year for the oil service!
   call_to_action: Sign up for 30% discount for your first oil service!
   activerecord:
     models:
@@ -44,25 +46,39 @@ en:
         create: Create car
         update: Update car
   problem:
-    headline: No more concerns about your car being not serviced.
-    text: There are many reasons why your car is not serviced. We help you to solve them easily.
+    headline: There are many reasons why your car is not serviced.
+    text: We help you to solve them easy and effective.
     reason_1: You won´t pay all at once?
-    reason_2: Are you not aware of the importance of servicing your car?
+    reason_1_text: Car repairs can be very expensive and always come up at a wrong time.
+    reason_2: Are you not aware of the importance of a regular service?
+    reason_2_text: Only regular services will protect your car from damages.
     reason_3: You don't trust the repair shops?
+    reason_3_text: It´s not easy understand technical issues.
     reason_4: Are you sure about the safety of your family?
+    reason_4_text: Only regular services can make sure that your car is safe.
   solution:
-    headline: We ensure the routine maintenance of your car
-    text: Choose one of our vehicle services, pay a low monthly fee and be sure that the service will be done. Just call out the voucher and you can make the service at one of our certified repair shops.
+    headline: We ensure the maintenance of your on a regular basis!
+    text: Choose one of our services, pay a low monthly fee and the service will be done. Just call out the voucher and you can make the service at one of our certified repair shops.
     reason_1: Enjoy your freedom with low monthly fees.
+    reason_1_text: Cost of the service is devided into small rates. And you get additional services for free.
     reason_2: Be sure to have the service done at the right time.
-    reason_3: Get things done with us and don't worry about it any more.
+    reason_2_text: The service has to be done? No problem. Just call out your voucher.
+    reason_3: We recommend only reliable repair shops.
+    reason_3_text: Repair shops have to go through a process to be registered by FlatService4You.
     reason_4: Make sure that your family is safe on the road.
+    reason_4_text: Avoid dangerous break downs on the road by maintaining your car on a regular basis.
     reason_5: We recommend only reliable repair shops
     reason_6: We describe exactly what to do and control the repair shops
-  video_headline: Check the video and learn more about our service
+  video_headline: What is FlatService4You?
+  video_text: Flatservice4You is an online portal for car repair services. See in video how it works.
+  product_headline: Our car repair services meet your needs - choose yours.
+  product_text: Combine the services as you wish and get the best service for your car.
+  faq_text: Please find here more information about our portal car repair services.
+  blog_headline: Blog
+  blog_text: Enjoy our newest posts
   product: Product
   price: Price
-  team: Team
+  team: Our team
   faq: FAQ
   browser_does_support_video: Your browser does not support HTML5 video.
   view_all_features: View all features
@@ -137,3 +153,12 @@ en:
       tooltip_5: Comming soon
     subscribe_now: Subscribe Now
     secure_purchase: Secure Purchase
+  teams:
+    member_1: Barbara
+    member_1_text: I take care of all customer inquiries. If you have any question to our services don´t hesitate contacting me. barbara@flatservice4you.pl
+    member_2: Tufan
+    member_2_text: Marketing activities and the portal itself are my daily business. Please stay in contact with us and enjoy all our fresh marketing ideas. tufan@flatservice4you.pl
+    member_3: Maciej
+    member_3_text: I want to make sure that you get the best service. For this I build up relation ships with repair shops. maciej@flatservice4you.pl
+    member_4: Ronny
+    member_4_text: We offer you in addition to the car repair service added values for free. Each day I try to find new services and partners to make your life more easy. ronny@flatservice4you.pl
