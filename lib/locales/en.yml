@@ -162,3 +162,16 @@ en:
     member_3_text: I want to make sure that you get the best service. For this I build up relation ships with repair shops. maciej@flatservice4you.pl
     member_4: Ronny
     member_4_text: We offer you in addition to the car repair service added values for free. Each day I try to find new services and partners to make your life more easy. ronny@flatservice4you.pl
+  faqs:
+    question_1: What is the running time?
+    answer_1: Each service will be closed for a duration of 12 months.
+    question_2: How can I cancel?
+    answer_2: Very easy. Just write an e-mail to barbara@flatservice4you.pl
+    question_3: How many vouchers can I use per year?
+    answer_3: Each year you can call up one voucher. If you need more services due to high mileage, please contact us.
+    question_4: Can I choose the repair shop?
+    answer_4: Once you called up a voucher we will send you an e-mail with registered repair shops near you.
+    question_5: I have registered my self for the early bird program. What happens next?
+    answer_5: Currently we are finishing last topics and agreements. As soon as we have finished we will send you an e-mail with all details.
+    question_6: Can I close this for my company?
+    answer_6: Sure. We will also have a special fleet program.
