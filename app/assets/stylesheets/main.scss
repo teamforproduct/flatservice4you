@@ -21,11 +21,15 @@ body#flatservice {
       background-color: #333;
       border: 1px solid #333;
       margin: 10px 15px 0 15px;
-      padding: 35px 15px;
+      padding: 0 15px 15px 15px;
 
       .col-md-12 {
         padding-left: 15px;
         padding-right: 15px;
+      }
+
+      .header {
+        margin: 20px 0;
       }
     }
 
