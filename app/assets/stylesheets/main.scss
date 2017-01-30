@@ -159,6 +159,11 @@ body#flatservice {
     }
   }
 
+  #template-nt-products .sz_shop_slider_wrapper .sz_shop_slider_header h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
   @media screen and (max-width: 992px) {
     .template-nt-intro {
       #register-form {
@@ -875,7 +880,7 @@ body#flatservice {
   }
 
   .sz_shop_slider_trig {
-    padding: 100px 10px 50px;
+    padding: 10px 10px 50px;
     overflow: hidden;
     position: relative;
   }
@@ -964,20 +969,18 @@ body#flatservice {
 
   .sz_shop_slider_trig_img {
     background: #ededed none repeat scroll 0 0;
-    border-radius: 4px 4px 0 0;
     overflow: hidden;
     position: relative;
   }
 
   .sz_shop_slider_trig_img > img {
-    border-radius: 4px 4px 0 0;
     display: block;
     margin: auto;
     width: 100%;
   }
 
   .sz_shop_slider_trig_img > span {
-    background: #ff6a00 none repeat scroll 0 0;
+    background: #1295c3 none repeat scroll 0 0;
     border-radius: 4px;
     color: #fff;
     display: block;
@@ -1062,7 +1065,7 @@ body#flatservice {
   }
 
   .sz_shop_slider_trig_name > span {
-    color: #ff6a00;
+    color: #1295c3;
     display: block;
     font-size: 18px;
     font-weight: 600;
