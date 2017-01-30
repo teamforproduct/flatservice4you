@@ -147,12 +147,15 @@ body#flatservice {
   .fb_btn {
     background: #627aac;
     border: 1px #29447e solid;
-    padding: 6px!important;
+    padding: 7px 20px!important;
     letter-spacing: 0;
+    font-weight: bold;
 
     i {
       margin-top: 0!important;
       font-size: 15px!important;
+      position: relative;
+      left: -8px;
     }
   }
 
