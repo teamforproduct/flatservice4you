@@ -3,52 +3,54 @@
   <div class="template-nt-footer-content">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="col-md-6 col-sm-6 ">
+        <div class="col-md-12">
+          <div class="col-md-3 col-sm-6 ">
             <h3 class="template-nt-lead">About</h3>
             <ul>
-              <li><a href="">Tour</a></li>
-              <li><a href="">Company</a></li>
-              <li><a href="">Jobs</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">New Features</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 col-sm-6 ">
-            <h3 class="template-nt-lead">Support</h3>
-            <ul>
-              <li><a href="">Help Center</a></li>
-              <li><a href="">Terms of Service</a></li>
-              <li><a href="">Security</a></li>
+              <li><a href="">Imprint</a></li>
               <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">More Apps</a></li>
+              <li><a href="">Disclaimer</a></li>
             </ul>
           </div>
-          <div class="col-md-6 col-sm-6 ">
-            <h3 class="template-nt-lead">More Links</h3>
-            <ul>
-              <li><a href="">Feedback</a></li>
-              <li><a href="">Frequently Ask Questions</a></li>
-              <li><a href="">Terms of Service</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">More Apps</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-6 col-sm-6 ">
+          <div class="col-md-6 col-sm-6 text-center">
             <div class="template-nt-footer-logo"><%= image_tag('logos/logo_white.png', class: 'logo-img-min') %></div>
             <p class="template-nt-copyright"><small>&copy; 2016. All Rights Reserved.</small></p>
             <p class="template-nt-social-icons">
-              <a href=""><i class="icon-twitter"></i></a>
               <a href=""><i class="icon-facebook"></i></a>
-              <a href=""><i class="icon-instagram"></i></a>
-              <a href=""><i class="icon-dribbble"></i></a>
               <a href=""><i class="icon-youtube"></i></a>
             </p>
           </div>
+          <div class="col-md-3 col-sm-6 ">
+            <h3 class="template-nt-lead"><%= t('footer.more_questions') %></h3>
+            <ul>
+              <li>
+                <%= fa_icon('phone') %>
+                <%= t('footer.phone') %>
+              </li>
+            </ul>
+          </div>
+          <!--<div class="col-md-6 col-sm-6 ">-->
+            <!--<h3 class="template-nt-lead">Support</h3>-->
+            <!--<ul>-->
+              <!--<li><a href="">Help Center</a></li>-->
+              <!--<li><a href="">Terms of Service</a></li>-->
+              <!--<li><a href="">Security</a></li>-->
+              <!--<li><a href="">Privacy Policy</a></li>-->
+              <!--<li><a href="">Careers</a></li>-->
+              <!--<li><a href="">More Apps</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="col-md-6 col-sm-6 ">-->
+            <!--<h3 class="template-nt-lead">More Links</h3>-->
+            <!--<ul>-->
+              <!--<li><a href="">Feedback</a></li>-->
+              <!--<li><a href="">Frequently Ask Questions</a></li>-->
+              <!--<li><a href="">Terms of Service</a></li>-->
+              <!--<li><a href="">Privacy Policy</a></li>-->
+              <!--<li><a href="">Careers</a></li>-->
+              <!--<li><a href="">More Apps</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
         </div>
       </div>
     </div>

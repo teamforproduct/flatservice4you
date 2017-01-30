@@ -875,8 +875,9 @@ body#flatservice {
 
   .sz_shop_slider_header {
     margin: auto;
-    padding: 50px 0 20px;
+    padding: 20px 0;
     text-align: center;
+    color: #fff;
   }
 
   .sz_shop_slider_header > h1 {
@@ -1380,6 +1381,10 @@ body#flatservice {
     position: absolute;
     right: 20px;
     bottom: 10px;
+  }
+
+  .logo-img-min {
+    width: 170px;
   }
 }
 
