@@ -156,13 +156,13 @@ en:
     secure_purchase: Secure Purchase
   teams:
     member_1: Barbara
-    member_1_text: I take care of all customer inquiries. If you have any question to our services don´t hesitate contacting me. barbara@flatservice4you.pl
+    member_1_text: I take care of all customer inquiries. If you have any question to our services don´t hesitate contacting me. <p>barbara@flatservice4you.pl</p>
     member_2: Tufan
-    member_2_text: Marketing activities and the portal itself are my daily business. Please stay in contact with us and enjoy all our fresh marketing ideas. tufan@flatservice4you.pl
-    member_3: Maciej
-    member_3_text: I want to make sure that you get the best service. For this I build up relation ships with repair shops. maciej@flatservice4you.pl
-    member_4: Ronny
-    member_4_text: We offer you in addition to the car repair service added values for free. Each day I try to find new services and partners to make your life more easy. ronny@flatservice4you.pl
+    member_2_text: Marketing activities and the portal itself are my daily business. Please stay in contact with us and enjoy all our fresh marketing ideas. <p>tufan@flatservice4you.pl</p>
+    member_3: Ronny
+    member_3_text: We offer you in addition to the car repair service added values for free. Each day I try to find new services and partners to make your life more easy. <p>ronny@flatservice4you.pl</p>
+    member_4: Maciej
+    member_4_text: I want to make sure that you get the best service. For this I build up relation ships with repair shops. <p>maciej@flatservice4you.pl</p>
   faqs:
     question_1: What is the running time?
     answer_1: Each service will be closed for a duration of 12 months.
