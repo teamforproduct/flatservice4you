@@ -79,8 +79,8 @@ body#flatservice {
   }
 
   .img-circle {
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
     margin: 0 auto;
   }
 
@@ -371,16 +371,16 @@ body#flatservice {
 
     .product-header .product-content-label img {
       position: absolute;
-      right: 10px;
-      top: 10px;
-      width: 47px;
+      right: -5px;
+      top: -5px;
+      width: 75px;
     }
 
     .product-content-section {
       background: rgb(159,197,57);
 
       .product-content-label img {
-        width: 25px;
+        width: 50px;
       }
     }
 
@@ -472,7 +472,6 @@ body#flatservice {
 
   .sz_post_slider_trig {
     padding: 110px 2px 50px;
-    overflow: hidden;
     position: relative;
   }
 
@@ -487,7 +486,7 @@ body#flatservice {
     padding-right: 15px;
     right: 0;
     text-align: center;
-    top: 45px;
+    top: 128px;
     white-space: nowrap;
     width: 97%;
   }
@@ -589,7 +588,7 @@ body#flatservice {
     text-align: center;
     text-shadow: none;
     text-transform: uppercase;
-    top: 0;
+    top: 72px;
     transition: all 0.6s cubic-bezier(0.3, 1, 0, 1) 0s;
     width: 35px;
 
@@ -663,7 +662,7 @@ body#flatservice {
   }
 
   .sz_post_slider_trig_txt > a {
-    color: #fff;
+    color: #3fa9d0;
     display: block;
     font-size: 18px;
     font-weight: 400;
@@ -697,7 +696,7 @@ body#flatservice {
 
   .sz_post_slider_trig_btn > a {
     bottom: 15px;
-    color: #fff;
+    color: #3fa9d0;
     display: inline-block;
     font-size: 12px;
     font-weight: 400;
@@ -710,7 +709,7 @@ body#flatservice {
 
   .sz_post_slider_trig_btn > span > a {
     bottom: 15px;
-    color: #fff;
+    color: #3fa9d0;
     display: inline-block;
     font-size: 12px;
     font-weight: 400;
@@ -885,6 +884,10 @@ body#flatservice {
     font-size: 35px;
     font-weight: 300;
     text-transform: uppercase;
+  }
+
+  .sz_shop_slider_header > p {
+    color: #313131;
   }
 
   .sz_shop_slider_trig {
@@ -1243,7 +1246,6 @@ body#flatservice {
     font-size: 18px;
     font-weight: 400;
     margin-left: 5px;
-    text-decoration: line-through;
   }
 
   ul.sz_shop_slider_slide_rating {
@@ -1385,6 +1387,10 @@ body#flatservice {
 
   .logo-img-min {
     width: 170px;
+  }
+
+  .call_us ul li {
+    line-height: 1.5em;
   }
 }
 

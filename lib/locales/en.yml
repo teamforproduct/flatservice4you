@@ -90,11 +90,16 @@ en:
   home_index: Home
   sing_in_with_facebook: Sign in with Facebook
   user_success_create: You success get 30% discount
+  prices:
+    header: Price for each service
   products:
     header: Our car repair services meet your needs - choose yours.
     product_1:
       name: Oil Service
       short_description: One complete oil service per year to keep your engine fresh
+      text: Every car needs engine oil to lubricate and cool all of its moving parts. Higher engine wear can be easily avoided if the oil is changed at regular intervals. Regularly changing your car´s oil is not a luxury but a technical necessity. We help you with our Oil Service product to protect your engine from damages and a regularly oil service will keep the value of your car on a higher level.
+      how_does_work: Just sign up for our Oil Service. With a low monthly fee you get the right for one oil service per year. For this you only have to call up a voucher in our portal. We will send you a voucher and addresses of  reliable repair shops near you.
+      added_values: FSFY Engine Protect and FSFY Uber Voucher
       per_month: 9.99
       per_year: 107.99
       content_1: Motor Oil
@@ -110,6 +115,9 @@ en:
     product_2:
       name: Tire Service
       short_description: For your safety two tire changes in order to drive with the right tires
+      text: The usage of special summer and winter tires are important for your safety - dont play with it. It is also a legal requirement in many european countries. Our service ensures the routine change and professionally storage of your summer and winter tires.
+      how_does_work: Just sign up for our Tire Service. With a low monthly fee you get the right for two tire changes per year. For this you only have to call up a voucher in our portal. We will send you a voucher and addresses of  reliable repair shops near you.
+      added_values: FS4Y Tire Protect
       per_month:
       per_year:
       content_1: Safe tire keeping
@@ -117,14 +125,17 @@ en:
       content_3: Wheel balancing
       content_4: Labour Costs
       content_5: FSFY Tire Protect
-      tooltip_1: Comming soon
-      tooltip_2: Comming soon
-      tooltip_3: Comming soon
-      tooltip_4: Comming soon
-      tooltip_5: Comming soon
+      tooltip_1: Coming soon
+      tooltip_2: Coming soon
+      tooltip_3: Coming soon
+      tooltip_4: Coming soon
+      tooltip_5: Coming soon
     product_3:
       name: Small Inspection
-      short_description: One small inspection per year to make sure that your working well
+      short_description: One small inspection per year to make sure that your car is working well
+      text: Once a year your car should be checked. Above all safety relevant parts have to tested to ensure your safety on the road. No matter if you are about to make a journey or want to have checked your car befor winter. We help you to be safe on the road.
+      how_does_work: Just sign up for our Small Inspection Service. With a low monthly fee you get the right for one Small Inspection per year. For this you only have to call up a voucher in our portal. We will send you a voucher and addresses of  reliable repair shops near you.
+      added_values: FS4Y Uber Voucher
       per_month:
       per_year:
       content_1: Visual checks
@@ -132,14 +143,17 @@ en:
       content_3: Air conditon check
       content_4: No FSFY logo
       content_5: FSFY Service Check
-      tooltip_1: Comming soon
-      tooltip_2: Comming soon
-      tooltip_3: Comming soon
-      tooltip_4: Comming soon
-      tooltip_5: Comming soon
+      tooltip_1: Coming soon
+      tooltip_2: Coming soon
+      tooltip_3: Coming soon
+      tooltip_4: Coming soon
+      tooltip_5: Coming soon
     product_4:
       name: General Inspection
-      short_description: One inspection per year to keep your car well maintenanced
+      short_description: One inspection per year to keep your car well maintained
+      text: This product meets the requirements from the individual service plan of your car. Based on your total milage the respective service will be made. Please note, that a service on a regular basis will keep the value of your car on a higher level.
+      how_does_work: Just sign up for our General Inspection Service. With a low monthly fee you get the right for one General Inspection per year. For this you only have to call up a voucher in our portal. We will send you a voucher and addresses of  reliable repair shops near you.
+      added_values: FS4Y Uber Voucher
       per_month:
       per_year:
       content_1: Visual checks
@@ -147,11 +161,11 @@ en:
       content_3: Service acc. manufacturer instruction
       content_4: No FSFY logo
       content_5: FSFY Uber Voucher
-      tooltip_1: Comming soon
-      tooltip_2: Comming soon
-      tooltip_3: Comming soon
-      tooltip_4: Comming soon
-      tooltip_5: Comming soon
+      tooltip_1: Coming soon
+      tooltip_2: Coming soon
+      tooltip_3: Coming soon
+      tooltip_4: Coming soon
+      tooltip_5: Coming soon
     subscribe_now: Subscribe Now
     secure_purchase: Secure Purchase
   teams:
@@ -190,7 +204,9 @@ en:
     post_2_content: "<p>Buyers of used cars are more skeptical than ever. Used car dealers have always been critical and search used vehicles for hidden deficiencies and concealed vulnerabilities. Increasingly, private individuals are also bringing along a technically competent companion to scrutinize the vehicle offered for purchase. Do regular oil changes contribute to a better resale price?</p><p>Oil changes create trust</p><p>Even experienced hobbyists can´t look into the engine when buying a used car and get a picture of the condition of the connecting rod bearings or the piston rings. But anyone who is able to prove the dates of oil changes through entries in a service book improves their chances of a good sale price. Because when regular oil changes have been made, it´s clear to see the seller took care of their vehicle. The buyer is also interested in whether the owner has shown a reasonable and motor-friendly driving style.</p><p>Documentation is important</p><p>A car specialist company documents oil changes in the vehicle´s service book. Often, regular oil changes occur during large or small inspections and are noted together with the replacement of the oil filter and other small parts. But separate oil changes should also be documented by the specialist workshop.</p><p>Regular oil changes increase the vehicle value</p><p>A regular oil change pays twice. The owner benefits from a clean working engine, saves the environment and lowers fuel costs. In the case of resale, they have the evidence to convince the buyer that the engine is in good condition and still has a long running performance ahead. All of these are good reasons for regular oil changes.</p>"
     post_3_title: Regular oil changes help cars to live longer
     post_3_content: "<p>Without care and checks, a vehicle becomes not only unsightly, but also unreliable. Costly damage can only be avoided with regular maintenance. This also includes regular oil changes. Many drivers don´t just ask themselves: when should I change the oil? Some doubt whether an oil change is necessary at all. However, all motor oils are subject to a natural aging process - the quality of the lubricant is reduced over the years. There are other factors to consider.</p><p>In the cold season the fuel condenses and turns into a condensate on the piston walls, diluting the gasoline. Through abrasion, metallic particles get into the oil, corrode it and reduce its lubrication quality. Blow-by gases flowing past the piston rings contaminate the engine oil with combustion residues. As a result, not only does the lubrication deteriorate, so does the viscosity of the oil. This means that the oil no longer corresponds to the original specification – so lubrication and cooling deteriorate. Without regular oil changes, premature wearing of the engine is imminent.</p><p>The question remains: When to change the oil? The oil change intervals can be taken from the vehicle´s logbook and should be observed. Anyone who neglects an oil change must count on the following: the inevitable consequences are increased wear on all surfaces and bearings requiring lubrication. Contaminated spark plugs, corrosion damage on the oil pump and a prematurely worn catalytic converter are further unpleasant consequences. However, fuel consumption will also increase and the exhaust gas values ​​will become poorer. The exhaust gas purification system will no longer be able to completely filter the unburned foreign substances, which means that the catalyst and the environment are also heavier.</p><p>When it comes to determining times to change the oil, it is necessary to distinguish between fixed and dynamic alternating intervals. With fixed intervals, mileage and period are used. Dynamic change intervals are calculated by the on-board computer and displayed in the cockpit. The cost of neglecting the oil change intervals cannot be predicted reliably. If you're lucky, you can still travel miles with the old oil without causing any defects. However, wear and tear, increased operating costs and greater environmental impact are certain. If damage occurs, it can be quite costly for the driver. If you do not take any risks and want to enjoy your engine, you should take the oil change question seriously and never miss a regular oil change.</p>"
-  comming_soon: Comming soon
+  coming_soon: Coming soon
   footer:
-    more_questions: "More questions? Call us and we will help you"
+    more_questions: More questions?
+    call_us_and_we_help_you: Call us and we will help you
     phone: "+49 30 804869-0"
+  no_price: No price

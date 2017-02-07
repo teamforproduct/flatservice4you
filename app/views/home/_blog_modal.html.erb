@@ -81,9 +81,12 @@
           <%= image_tag('sliders/test_1.jpg') %>
         </div>
         <div class="sz_shop_slider_slide_txt">
-          <h1>Product's name and description</h1>
+          <h1><%= t('products.product_1.name') %></h1>
           <ul class="sz_shop_slider_slide_price">
-            <li>$150.00</li>
+            <li>
+              <%= t('products.product_1.per_month') %>
+              <span>/Month</span>
+            </li>
           </ul>
           <ul class="sz_shop_slider_slide_rating">
             <li><span class="fa fa-star"></span></li>
@@ -92,11 +95,9 @@
             <li><span class="fa fa-star-half-o"></span></li>
             <li><span class="fa fa-star-o"></span></li>
           </ul>
-          <p>Lorem
-            ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-            varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-            Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-            commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
+          <p><%= t('products.product_1.text') %></p>
+          <p><%= t('products.product_1.how_does_work') %></p>
+          <p><%= t('products.product_1.added_values') %></p>
           <!--<form action="#">-->
             <!--<div class="sz_shop_slider_slide_num">-->
               <!--<label>quantity</label>-->
@@ -115,13 +116,12 @@
         <div class="item" style="transition-duration: 2000ms;">
           <div class="sz_sldr_shop_slider_image">
             <%= image_tag('sliders/test_2.jpg') %>
-            <span>sale</span>
+            <span><%= t('coming_soon') %></span>
           </div>
           <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
+            <h1><%= t('products.product_2.name') %></h1>
             <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-              <li><span>$300.00</span></li>
+              <li><%= t('no_price') %></li>
             </ul>
             <ul class="sz_shop_slider_slide_rating">
               <li><span class="fa fa-star"></span></li>
@@ -130,11 +130,9 @@
               <li><span class="fa fa-star-half-o"></span></li>
               <li><span class="fa fa-star-o"></span></li>
             </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
+            <p><%= t('products.product_2.text') %></p>
+            <p><%= t('products.product_2.how_does_work') %></p>
+            <p><%= t('products.product_2.added_values') %></p>
             <!--<form action="#">-->
               <!--<div class="sz_shop_slider_slide_num">-->
                 <!--<label>quantity</label>-->
@@ -155,9 +153,9 @@
             <%= image_tag('sliders/test_3.jpg') %>
           </div>
           <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
+            <h1><%= t('products.product_3.name') %></h1>
             <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
+              <li><%= t('no_price') %></li>
             </ul>
             <ul class="sz_shop_slider_slide_rating">
               <li><span class="fa fa-star"></span></li>
@@ -166,11 +164,9 @@
               <li><span class="fa fa-star-half-o"></span></li>
               <li><span class="fa fa-star-o"></span></li>
             </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
+            <p><%= t('products.product_3.text') %></p>
+            <p><%= t('products.product_3.how_does_work') %></p>
+            <p><%= t('products.product_3.added_values') %></p>
             <!--<form action="#">-->
               <!--<div class="sz_shop_slider_slide_num">-->
                 <!--<label>quantity</label>-->
@@ -189,13 +185,12 @@
         <div class="item" style="transition-duration: 2000ms;">
           <div class="sz_sldr_shop_slider_image">
             <%= image_tag('sliders/test_4.jpg') %>
-            <span>sale</span>
+            <span><%= t('coming_soon') %></span>
           </div>
           <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
+            <h1><%= t('products.product_4.name') %></h1>
             <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-              <li><span>$300.00</span></li>
+              <li><%= t('no_price') %></li>
             </ul>
             <ul class="sz_shop_slider_slide_rating">
               <li><span class="fa fa-star"></span></li>
@@ -204,157 +199,9 @@
               <li><span class="fa fa-star-half-o"></span></li>
               <li><span class="fa fa-star-o"></span></li>
             </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
-            <!--<form action="#">-->
-              <!--<div class="sz_shop_slider_slide_num">-->
-                <!--<label>quantity</label>-->
-                <!--<input max="20" min="1" name="quantity" type="number">-->
-              <!--</div>-->
-              <!--<div class="sz_shop_slider_slide_btn">-->
-                <!--<button type="submit">add to cart</button>-->
-              <!--</div>-->
-            <!--</form>-->
-            <ul class="sz_shop_slider_slide_social">
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="item" style="transition-duration: 2000ms;">
-          <div class="sz_sldr_shop_slider_image">
-            <%= image_tag('sliders/test_1.jpg') %>
-          </div>
-          <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
-            <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-            </ul>
-            <ul class="sz_shop_slider_slide_rating">
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star-half-o"></span></li>
-              <li><span class="fa fa-star-o"></span></li>
-            </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
-            <!--<form action="#">-->
-              <!--<div class="sz_shop_slider_slide_num">-->
-                <!--<label>quantity</label>-->
-                <!--<input max="20" min="1" name="quantity" type="number">-->
-              <!--</div>-->
-              <!--<div class="sz_shop_slider_slide_btn">-->
-                <!--<button type="submit">add to cart</button>-->
-              <!--</div>-->
-            <!--</form>-->
-            <ul class="sz_shop_slider_slide_social">
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="item" style="transition-duration: 2000ms;">
-          <div class="sz_sldr_shop_slider_image">
-            <%= image_tag('sliders/test_2.jpg') %>
-          </div>
-          <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
-            <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-            </ul>
-            <ul class="sz_shop_slider_slide_rating">
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star-half-o"></span></li>
-              <li><span class="fa fa-star-o"></span></li>
-            </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
-            <!--<form action="#">-->
-              <!--<div class="sz_shop_slider_slide_num">-->
-                <!--<label>quantity</label>-->
-                <!--<input max="20" min="1" name="quantity" type="number">-->
-              <!--</div>-->
-              <!--<div class="sz_shop_slider_slide_btn">-->
-                <!--<button type="submit">add to cart</button>-->
-              <!--</div>-->
-            <!--</form>-->
-            <ul class="sz_shop_slider_slide_social">
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="item" style="transition-duration: 2000ms;">
-          <div class="sz_sldr_shop_slider_image">
-            <%= image_tag('sliders/test_3.jpg') %>
-            <span>sale</span>
-          </div>
-          <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
-            <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-              <li><span>$300.00</span></li>
-            </ul>
-            <ul class="sz_shop_slider_slide_rating">
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star-half-o"></span></li>
-              <li><span class="fa fa-star-o"></span></li>
-            </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
-            <!--<form action="#">-->
-              <!--<div class="sz_shop_slider_slide_num">-->
-                <!--<label>quantity</label>-->
-                <!--<input max="20" min="1" name="quantity" type="number">-->
-              <!--</div>-->
-              <!--<div class="sz_shop_slider_slide_btn">-->
-                <!--<button type="submit">add to cart</button>-->
-              <!--</div>-->
-            <!--</form>-->
-            <ul class="sz_shop_slider_slide_social">
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="item" style="transition-duration: 2000ms;">
-          <div class="sz_sldr_shop_slider_image">
-            <%= image_tag('sliders/test_3.jpg') %>
-          </div>
-          <div class="sz_shop_slider_slide_txt">
-            <h1>Product's name and description</h1>
-            <ul class="sz_shop_slider_slide_price">
-              <li>$150.00</li>
-            </ul>
-            <ul class="sz_shop_slider_slide_rating">
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star"></span></li>
-              <li><span class="fa fa-star-half-o"></span></li>
-              <li><span class="fa fa-star-o"></span></li>
-            </ul>
-            <p>Lorem
-              ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc
-              varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet.
-              Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo
-              commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl.</p>
+            <p><%= t('products.product_4.text') %></p>
+            <p><%= t('products.product_4.how_does_work') %></p>
+            <p><%= t('products.product_4.added_values') %></p>
             <!--<form action="#">-->
               <!--<div class="sz_shop_slider_slide_num">-->
                 <!--<label>quantity</label>-->

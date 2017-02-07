@@ -7871,6 +7871,7 @@
 	#template-nt-team,
 	#template-nt-products,
   #template-nt-promo,
+  #template-nt-blog,
 	#template-nt-faqs {
 	  position: relative;
 	  padding: 4em 0;
@@ -7916,6 +7917,7 @@
   #template-nt-team .template-nt-text-wrap .template-nt-text p {
     font-family:'Open Sans', sans-serif;
     font-style: italic;
+    margin-bottom: 0;
   }
 	@media screen and (max-width: 768px) {
 	  #template-nt-team .template-nt-text-wrap .template-nt-text {
@@ -8076,6 +8078,11 @@
 	  transition: 0.5s;
 	  margin-bottom: 1.5em;
 	}
+
+  #template-nt-problems .template-nt-feature {
+    height: 320px;
+  }
+
 	.template-nt-feature:hover, .template-nt-feature:focus, .template-nt-feature:active, .template-nt-figure:hover, .template-nt-figure:focus, .template-nt-figure:active {
 	  text-decoration: none;
 	  outline: none;
