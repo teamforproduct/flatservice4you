@@ -285,6 +285,11 @@ body#flatservice {
 
   }
 
+  // Team block
+  #template-nt-team .template-nt-text .to-animate-off p {
+    margin-bottom: 6px;
+  }
+
   // Price blocks
 
   #template-nt-pricing {
@@ -312,6 +317,10 @@ body#flatservice {
       border-radius: 0;
       color: #fff;
       padding: 10px;
+
+      .product-desc-icon {
+
+      }
     }
 
     .product-header {
@@ -381,6 +390,21 @@ body#flatservice {
 
       .product-content-label img {
         width: 50px;
+      }
+
+      .product-desc-icon {
+        display: inline-block;
+        margin-top: -11px;
+        padding: 6px;
+        img {
+          width: 90px;
+        }
+        img.tire-project {
+          width: 73px;
+        }
+        img.uber-vaucher {
+          width: 87px;
+        }
       }
     }
 
@@ -486,7 +510,7 @@ body#flatservice {
     padding-right: 15px;
     right: 0;
     text-align: center;
-    top: 128px;
+    top: 12px;
     white-space: nowrap;
     width: 97%;
   }
@@ -588,7 +612,7 @@ body#flatservice {
     text-align: center;
     text-shadow: none;
     text-transform: uppercase;
-    top: 72px;
+    top: -45px;
     transition: all 0.6s cubic-bezier(0.3, 1, 0, 1) 0s;
     width: 35px;
 
@@ -886,7 +910,7 @@ body#flatservice {
     text-transform: uppercase;
   }
 
-  .sz_shop_slider_header > p {
+  .sz_shop_slider_header p {
     color: #313131;
   }
 
@@ -1260,14 +1284,26 @@ body#flatservice {
   }
 
   .sz_shop_slider_slide_txt > p {
-    border-bottom: 1px solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
-    color: #3e3e3e;
+    color: #000;
     display: block;
     font-size: 13px;
     font-weight: 400;
     padding: 15px 0;
     text-align: justify;
+
+    img {
+      width: 100px;
+      margin-right: 30px
+    }
+
+    img.uber-vaucher {
+      width: 89px;
+    }
+
+    img.tire-project {
+      width: 82px;
+    }
   }
 
   .sz_shop_slider_slide_txt > form {
