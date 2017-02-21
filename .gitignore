@@ -4,9 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore IDEA
-.idea/*
-.idea/flatservice4you.iml
+# Ignore editor/IDE specific files
+/.idea
 
 # Ignore bundler config.
 /.bundle
@@ -29,6 +28,8 @@
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+.ruby-version
+.ruby-gemset
 
 # Ignore pow environment settings
 .powenv
@@ -39,3 +40,4 @@
 /config/application.yml
 /config/database.yml
 /config/secrets.yml
+
