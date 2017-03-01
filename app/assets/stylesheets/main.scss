@@ -79,8 +79,8 @@ body#flatservice {
   }
 
   .img-circle {
-    height: 280px;
-    width: 280px;
+    height: 150px;
+    width: 150px;
     margin: 0 auto;
   }
 
@@ -210,6 +210,10 @@ body#flatservice {
         padding-left: 10px;
         padding-right: 10px;
       }
+    }
+
+    .sz_post_slider_trig_wrap {
+      margin: 0;
     }
   }
 
@@ -654,6 +658,7 @@ body#flatservice {
   .sz_post_slider_trig_wrap {
     overflow: hidden;
     position: relative;
+    margin: 0 50px;
   }
 
   .sz_post_slider_trig_img {
@@ -1213,7 +1218,7 @@ body#flatservice {
   }
 
   .sz_sldr_shop_slider_image {
-    background: #e0e0e0 none repeat scroll 0 0;
+    background: #878c93 none repeat scroll 0 0;
     border-radius: 4px;
     float: left;
     padding: 25px 0;
@@ -1380,6 +1385,7 @@ body#flatservice {
   .sz_shop_slider_mod_sld .carousel-inner > .item {
     overflow: hidden;
     padding: 30px;
+    background: #fff;
   }
 
   .sz_shop_sldr_control .carousel-control.left {
