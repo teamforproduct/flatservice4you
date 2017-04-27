@@ -2,24 +2,24 @@
   <div id="template-nt-clients">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-3 col-sm-6 col-xs-6">
-          <figure class="template-nt-client">
-            <%= image_tag('logos/ab.png')%>
-          </figure>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-xs-12 visible-xs-block">
           <figure class="template-nt-client">
             <%= image_tag('logos/uber.png', style: 'margin: 15px')%>
           </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
           <figure class="template-nt-client">
-            <%= image_tag('logos/axa.png')%>
+            <%= image_tag('logos/ab.png')%>
           </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-sm-4 hidden-xs">
           <figure class="template-nt-client">
-            <%= image_tag('logos/tuv.png')%>
+            <%= image_tag('logos/uber.png', style: 'margin: 15px')%>
+          </figure>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <figure class="template-nt-client">
+            <%= image_tag('logos/dgw.png')%>
           </figure>
         </div>
       </div>
@@ -42,16 +42,15 @@
           <div class="template-nt-hero-wrap">
             <div class="template-nt-hero-intro text-center to-animate-off counter-animate">
               <div class="col-md-4 text-center">
-                <span class="template-nt-counter js-counter" data-from="0" data-to="28" data-speed="5000" data-refresh-interval="50"></span>
+                <span class="template-nt-counter js-counter" data-type="weeks"></span>
                 <span class="template-nt-counter-label"><%= t('weeks') %></span>
-
               </div>
               <div class="col-md-4 text-center">
-                <span class="template-nt-counter js-counter" data-from="0" data-to="57" data-speed="5000" data-refresh-interval="50"></span>
+                <span class="template-nt-counter js-counter" data-type="days"></span>
                 <span class="template-nt-counter-label"><%= t('days') %></span>
               </div>
               <div class="col-md-4 text-center">
-                <span class="template-nt-counter js-counter" data-from="0" data-to="34023" data-speed="5000" data-refresh-interval="50"></span>
+                <span class="template-nt-counter js-counter" data-type="minutes"></span>
                 <span class="template-nt-counter-label"><%= t('minutes') %></span>
               </div>
             </div>

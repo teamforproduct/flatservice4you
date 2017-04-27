@@ -100,8 +100,8 @@ en:
       text: Every car needs engine oil to lubricate and cool all of its moving parts. Higher engine wear can be easily avoided if the oil is changed at regular intervals. Regularly changing your car´s oil is not a luxury but a technical necessity. We help you with our Oil Service product to protect your engine from damages and a regularly oil service will keep the value of your car on a higher level.
       how_does_work: Just sign up for our Oil Service. With a low monthly fee you get the right for one oil service per year. For this you only have to call up a voucher in our portal. We will send you a voucher and addresses of  reliable repair shops near you.
       added_values: FSFY Engine Protect and FSFY Uber Voucher
-      per_month: 9.99
-      per_year: 107.99
+      per_month: "9,99"
+      per_year: "107,99"
       content_1: Motor Oil
       content_2: Oil Filter
       content_3: Labour Costs

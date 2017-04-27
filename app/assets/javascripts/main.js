@@ -86,7 +86,7 @@ $(function () {
       nav: true,
       responsive:{
         600:{
-          items: 2
+          items: 3
         }
       },
       navText: [
@@ -126,10 +126,35 @@ $(function () {
 
 	// Counter 
 	var counter = function() {
-		$('.js-counter').countTo({
-			formatter: function (value, options) {
-		      	return value.toFixed(options.decimals);
-		    },
+		$('.js-counter').each(function(index, item) {
+			var left = Math.max(new Date("07-01-2017") - new Date(), 0);
+
+			switch($(item).data('type')) {
+		    case "weeks":
+		    		$(item).countTo({
+		    			from: left/1000/60/60/24/7,
+							to: 0,
+							speed: left,
+							refreshInterval: 1000
+						});
+		        break;
+		    case "days":
+		    		$(item).countTo({
+		    			from: left/1000/60/60/24,
+							to: 0,
+							speed: left,
+							refreshInterval: 1000
+						});
+		        break;
+		    case "minutes":
+		    		$(item).countTo({
+		    			from: left/1000/60,
+							to: 0,
+							speed: left,
+							refreshInterval: 1000
+						});
+		        break;
+			}
 		});
 	};
 

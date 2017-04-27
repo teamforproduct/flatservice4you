@@ -39,7 +39,7 @@ gem 'select2-rails'
 gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
 gem 'enum_help'
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 gem 'simple-line-icons-rails'
 gem 'icomoon-rails'
 
@@ -63,5 +63,4 @@ end
 
 group :production do
   gem 'unicorn'
-  gem 'pg'
 end

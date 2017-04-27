@@ -97,8 +97,8 @@ pl:
       text:
       how_does_work:
       added_values:
-      per_month: 9.99
-      per_year: 107.99
+      per_month: "9,99"
+      per_year: "107,99"
       content_1: Motor Oil
       content_2: Oil Filter
       content_3: Labour Costs

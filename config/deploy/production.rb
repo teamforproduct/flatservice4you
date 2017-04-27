@@ -1,7 +1,7 @@
 set :deploy_to, '/home/rails/flatservice4you'
 set :tmp_dir, "/home/rails/tmp"
 
-server '138.68.77.151', user: 'rails', roles: %w{app web db}
+server '138.68.93.214', user: 'rails', roles: %w{app web db}
 
 namespace :deploy do
 
