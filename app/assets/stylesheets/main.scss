@@ -4,6 +4,13 @@ body#flatservice {
         height: 62px;
     }
 
+    #template-nt-hero {
+        background-image: asset-url("main_banner5.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #template-nt-hero .template-nt-intro {
         padding-bottom: 100px;
         padding-top: 100px;
@@ -296,6 +303,11 @@ body#flatservice {
             .owl-dot span {
                 background-color: #808080;
             }
+        }
+
+        .owl-nav [class*="owl-"] i {
+            font-size: 40px;
+            font-weight: bold;
         }
 
         .responsive-promo-video {
@@ -1474,5 +1486,20 @@ body#flatservice {
 
     .call_us ul li {
         line-height: 1.5em;
+    }
+
+    @media (max-width: 991px) {
+      #template-nt-hero {
+        background-image: asset-url("main_banner5_mobile.jpg");
+      }
+
+      #template-nt-products .sz_shop_slider_wrapper .sz_shop_slider_header h2 {
+        font-size: 35px;
+      }
+
+      #template-nt-testimony blockquote {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
 }
