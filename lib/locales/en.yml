@@ -15,7 +15,7 @@ en:
     headline: <h2>Modern Car Maintenance.</h2> <h2>Four You.</h2>
     text: <p>You have problems keeping your car maintained?</p><p>Our car repair services help maintaining your car on a regular basis.</p>
     call_to_action:	Sign now and <b>get 30% discount</b> for the first year for the oil service!
-  call_to_action: Sign up for 30% discount for your first oil service!
+  call_to_action: Zarejestruj się teraz i odbierz 30% rabatu na wymianę oleju w ciągu pierwszego roku!
   activerecord:
     models:
       user: User
@@ -23,7 +23,7 @@ en:
     attributes:
       user:
         name: Name
-        surename:	Family Name
+        surname:	Family Name
         email: E-Mail
       car:
         make: Make
@@ -209,4 +209,8 @@ en:
     more_questions: More questions?
     call_us_and_we_help_you: Call us and we will help you
     phone: "+49 30 804869-0"
+    about: About
+    imprint: Imprint
+    privacy_policy: Privacy Policy
+    disclaimer: Disclaimer
   no_price: No price
