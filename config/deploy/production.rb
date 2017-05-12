@@ -8,7 +8,9 @@ namespace :tolk do
   task :sync do
     on roles(:all) do
       within release_path do
-        execute :rake, 'tolk:sync'
+        with rails_env: fetch(:rails_env) do
+          execute :rake, 'tolk:sync'
+        end
       end
     end
   end
@@ -16,7 +18,9 @@ namespace :tolk do
   task :import do
     on roles(:all) do
       within release_path do
-        execute :rake, 'tolk:import'
+        with rails_env: fetch(:rails_env) do
+          execute :rake, 'tolk:import'
+        end
       end
     end
   end
@@ -31,8 +35,8 @@ namespace :deploy do
     end
   end
 
-  after :updated, 'tolk:sync'
-  after :updated, 'tolk:import'
+  after :publishing, 'tolk:sync'
+  after :publishing, 'tolk:import'
   after :publishing, 'deploy:restart'
 
 end
