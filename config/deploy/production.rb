@@ -7,13 +7,17 @@ namespace :tolk do
 
   task :sync do
     on roles(:all) do
-      execute :rake, 'tolk:sync'
+      within release_path do
+        execute :rake, 'tolk:sync'
+      end
     end
   end
 
   task :import do
     on roles(:all) do
-      execute :rake, 'tolk:import'
+      within release_path do
+        execute :rake, 'tolk:import'
+      end
     end
   end
 
