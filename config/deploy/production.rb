@@ -11,27 +11,24 @@ namespace :deploy do
     end
   end
 
-  after :publishing, 'tolk:sync'
-  after :publishing, 'tolk:import'
-  after :publishing, 'deploy:restart'
-
-end
-
-namespace :tolk do
-
-  task :sync do
+  task :tolk_sync do
     on roles(:all) do
       rake 'tolk:sync'
     end
   end
 
-  task :import do
+  task :tolk_import do
     on roles(:all) do
       rake 'tolk:import'
     end
   end
 
+  after :publishing, 'tolk:tolk_sync'
+  after :publishing, 'tolk:tolk_import'
+  after :publishing, 'deploy:restart'
+
 end
+
 
 # server-based syntax
 # ======================
