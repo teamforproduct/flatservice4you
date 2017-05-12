@@ -3,20 +3,6 @@ set :tmp_dir, "/home/rails/tmp"
 
 server '138.68.93.214', user: 'rails', roles: %w{app web db}
 
-namespace :deploy do
-
-  task :restart do
-    on roles(:all) do
-      execute 'sudo service unicorn restart'
-    end
-  end
-
-  after :publishing, 'tolk:sync'
-  after :publishing, 'tolk:import'
-  after :publishing, 'deploy:restart'
-
-end
-
 namespace :tolk do
 
   task :sync do
@@ -30,6 +16,20 @@ namespace :tolk do
       rake 'tolk:import'
     end
   end
+
+end
+
+namespace :deploy do
+
+  task :restart do
+    on roles(:all) do
+      execute 'sudo service unicorn restart'
+    end
+  end
+
+  after :publishing, 'tolk:sync'
+  after :publishing, 'tolk:import'
+  after :publishing, 'deploy:restart'
 
 end
 
