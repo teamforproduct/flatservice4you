@@ -11,7 +11,25 @@ namespace :deploy do
     end
   end
 
+  after :publishing, 'tolk:sync'
+  after :publishing, 'tolk:import'
   after :publishing, 'deploy:restart'
+
+end
+
+namespace :tolk do
+
+  task :sync do
+    on roles(:all) do
+      rake 'tolk:sync'
+    end
+  end
+
+  task :import do
+    on roles(:all) do
+      rake 'tolk:import'
+    end
+  end
 
 end
 
