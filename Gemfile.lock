@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: 19e92cef9f8e6780d1585e292f74f346236c6844
+  revision: d2d7c8f40d97e6bb637c64836039c5389b10a74f
   specs:
     activeadmin (1.0.0)
       arbre (>= 1.1.1)
@@ -68,6 +68,7 @@ GEM
     arbre (1.1.1)
       activesupport (>= 3.0.0)
     arel (6.0.4)
+    ast (2.3.0)
     bcrypt (3.1.11)
     bourbon (4.3.4)
       sass (~> 3.4)
@@ -103,35 +104,50 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    easy_translate (0.5.0)
+      json
+      thread
+      thread_safe
     enum_help (0.0.17)
       activesupport (>= 3.0.0)
     erubis (2.7.0)
     execjs (2.7.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
-    font-awesome-rails (4.7.0.1)
-      railties (>= 3.2, < 5.1)
+    font-awesome-rails (4.7.0.2)
+      railties (>= 3.2, < 5.2)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    has_scope (0.7.0)
-      actionpack (>= 4.1, < 5.1)
-      activesupport (>= 4.1, < 5.1)
+    has_scope (0.7.1)
+      actionpack (>= 4.1, < 5.2)
+      activesupport (>= 4.1, < 5.2)
     hashie (3.5.5)
+    highline (1.7.8)
     i18n (0.8.1)
+    i18n-tasks (0.9.15)
+      activesupport (>= 4.0.2)
+      ast (>= 2.1.0)
+      easy_translate (>= 0.5.0)
+      erubis
+      highline (>= 1.7.3)
+      i18n
+      parser (>= 2.2.3.0)
+      rainbow (~> 2.2)
+      terminal-table (>= 1.5.1)
     icomoon-rails (0.1.0)
       railties (>= 3.1.1)
       sass-rails (>= 3.1.1)
-    inherited_resources (1.7.1)
-      actionpack (>= 3.2, < 5.1)
+    inherited_resources (1.7.2)
+      actionpack (>= 3.2, < 5.2.x)
       has_scope (~> 0.6)
-      railties (>= 3.2, < 5.1)
+      railties (>= 3.2, < 5.2.x)
       responders
-    jbuilder (2.6.3)
-      activesupport (>= 3.0.0, < 5.2)
-      multi_json (~> 1.2)
+    jbuilder (2.6.4)
+      activesupport (>= 3.0.0)
+      multi_json (>= 1.2)
     jquery-rails (4.3.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -155,20 +171,20 @@ GEM
     kgio (2.11.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
-    mail (2.6.4)
+    mail (2.6.5)
       mime-types (>= 1.16, < 4)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
-    minitest (5.10.1)
+    minitest (5.10.2)
     multi_json (1.12.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
-    nokogiri (1.7.1)
+    nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     oauth2 (1.3.1)
       faraday (>= 0.8, < 0.12)
@@ -185,10 +201,12 @@ GEM
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
+    parser (2.4.0.0)
+      ast (~> 2.2)
     pg (0.20.0)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
-    rack (1.6.5)
+    rack (1.6.6)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.4)
@@ -215,6 +233,8 @@ GEM
       activesupport (= 4.2.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+    rainbow (2.2.2)
+      rake
     raindrops (0.18.0)
     rake (12.0.0)
     ransack (1.8.2)
@@ -224,8 +244,10 @@ GEM
       i18n
       polyamorous (~> 1.3)
     rdoc (4.3.0)
-    responders (2.3.0)
-      railties (>= 4.2.0, < 5.1)
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
+    safe_yaml (1.0.4)
     sass (3.4.23)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -252,16 +274,23 @@ GEM
     sshkit (1.13.1)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    terminal-table (1.7.3)
+      unicode-display_width (~> 1.1.1)
     thor (0.19.4)
+    thread (0.2.2)
     thread_safe (0.3.6)
     tilt (2.0.7)
+    tolk (2.0.0)
+      rails (>= 4.0)
+      safe_yaml (>= 0.8.6)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
-    turbolinks-source (5.0.0)
+    turbolinks-source (5.0.3)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    unicode-display_width (1.1.3)
     unicorn (5.3.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
@@ -285,6 +314,7 @@ DEPENDENCIES
   devise
   enum_help
   font-awesome-rails
+  i18n-tasks
   icomoon-rails
   jbuilder (~> 2.0)
   jquery-rails
@@ -296,9 +326,10 @@ DEPENDENCIES
   select2-rails
   simple-line-icons-rails
   spring
+  tolk
   turbolinks
   uglifier (>= 1.3.0)
   unicorn
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
