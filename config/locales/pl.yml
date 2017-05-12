@@ -18,6 +18,11 @@ pl:
   blog_text: Przeczytaj najnowsze posty
   clients:
     client_1: Wojtek
+    client_1_text: FS4Y pomaga mi w regularnym serwisowaniu samochodu. Przy niskich miesięcznych ratach mogę lepiej planować koszty utrzymania samochodu i nie spotykają mnie "niespodziewane" wymiany oleju. Silnik mojego auta ma zapewniony odpowiedni serwis, a do tego zawsze dysponuję odpowiednią dokumentacją potwierdzającą, że dbałem o swój samochód.
+    client_2: 
+    client_2_text: 
+    client_3: 
+    client_3_text: 
   faq: FAQ - najczęściej zadawane pytania
   faqs:
     answer_1: Każda usługa jest ważna przez okres 12 miesięcy.
@@ -170,7 +175,7 @@ pl:
       tooltip_4: Coming soon
       tooltip_5: Coming soon
     secure_purchase: Secure Purchase
-    subscribe_now: Subscribe Now
+    subscribe_now: Subskrybuj
   product_text: Połącz ze sobą usługi, tak aby uzyskać jak najlepszą opiekę dla swojego
     auta.
   sign_up_now: Zarejestruj się!

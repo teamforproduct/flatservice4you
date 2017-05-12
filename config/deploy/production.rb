@@ -7,13 +7,13 @@ namespace :tolk do
 
   task :sync do
     on roles(:all) do
-      rake 'tolk:sync'
+      execute :rake, 'tolk:sync'
     end
   end
 
   task :import do
     on roles(:all) do
-      rake 'tolk:import'
+      execute :rake, 'tolk:import'
     end
   end
 
