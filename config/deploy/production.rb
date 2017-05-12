@@ -27,8 +27,8 @@ namespace :deploy do
     end
   end
 
-  after :publishing, 'tolk:sync'
-  after :publishing, 'tolk:import'
+  after :updated, 'tolk:sync'
+  after :updated, 'tolk:import'
   after :publishing, 'deploy:restart'
 
 end
