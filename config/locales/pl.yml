@@ -19,13 +19,15 @@ pl:
   clients:
     client_1: Wojtek
   faq: FAQ - najczęściej zadawane pytania
-  faq_text: Znajdziesz tutaj informacje na temat funkcjonowania portalu i oferowanych usług.
   faqs:
     answer_1: Każda usługa jest ważna przez okres 12 miesięcy.
     answer_2: Bardzo prosto. Wystarczy, że wyślesz wiadomość na adres barbara@flatservice4you.pl
-    answer_3: Każdego roku możesz wykorzystać jeden voucher. Jeżeli potrzebujesz więcej, ponieważ masz wysoki przebieg, skontaktuj się z nami.
-    answer_4: Po odebraniu vouchera wyślemy Ci e-maila z listą zarejestrowanych warsztatów w Twoim pobliżu.
-    answer_5: Obecnie uzgadniamy ostatnie umowy i ustalamy szczegóły. Gdy już to skończymy, wyślemy Ci e-mail ze wszystkimi objaśnieniami.
+    answer_3: Każdego roku możesz wykorzystać jeden voucher. Jeżeli potrzebujesz więcej,
+      ponieważ masz wysoki przebieg, skontaktuj się z nami.
+    answer_4: Po odebraniu vouchera wyślemy Ci e-maila z listą zarejestrowanych warsztatów
+      w Twoim pobliżu.
+    answer_5: Obecnie uzgadniamy ostatnie umowy i ustalamy szczegóły. Gdy już to skończymy,
+      wyślemy Ci e-mail ze wszystkimi objaśnieniami.
     answer_6: Oczywiście. Posiadamy nawet specjalny program przeznaczony dla floty.
     question_1: Do kiedy mogę skorzystać z usługi?
     question_2: Jak mogę zrezygnować?
@@ -33,6 +35,8 @@ pl:
     question_4: Czy mogę wybrać warsztat?
     question_5: Zarejestrowałem się w programie dla pierwszych klientów. Co dalej?
     question_6: Współpracujecie z firmami?
+  faq_text: Znajdziesz tutaj informacje na temat funkcjonowania portalu i oferowanych
+    usług.
   footer:
     about: O nas
     call_us_and_we_help_you: Zadzwoń, a my Ci pomożemy.
@@ -42,9 +46,11 @@ pl:
     privacy_policy: Polityka prywatności
   home_index: Strona główna
   main_banner:
-    call_to_action: Zarejestruj się teraz i <b>odbierz 30% rabatu</b> na wymianę oleju w ciągu pierwszego roku!
+    call_to_action: Zarejestruj się teraz i <b>odbierz 30% rabatu</b> na wymianę oleju
+      w ciągu pierwszego roku!
     headline: "<h2>Nowoczesny auto serwis.</h2><h2>Dla Ciebie.</h2>."
-    text: "<p>Masz problem z utrzymaniem swojego samochodu w idealnym stanie?</p><p>Pomożemy Ci w naprawie i regularnym serwisowaniu Twojego auta.</p>"
+    text: "<p>Masz problem z utrzymaniem swojego samochodu w idealnym stanie?</p><p>Pomożemy
+      Ci w naprawie i regularnym serwisowaniu Twojego auta.</p>"
   menu:
     blog: Blog
     faq: FAQ - najczęściej zadawane pytania
@@ -60,7 +66,8 @@ pl:
   problem:
     headline: Twój samochód nie jest należycie serwisowany z wielu powodów.
     reason_1: Nie chcesz płacić za całą usługę na raz?
-    reason_1_text: Naprawa samochodu potrafi być bardzo kosztowna i zawsze jest potrzebna w najmniej odpowiednim momencie.
+    reason_1_text: Naprawa samochodu potrafi być bardzo kosztowna i zawsze jest potrzebna
+      w najmniej odpowiednim momencie.
     reason_2: Czy wiesz jak ważne jest regularne serwisowanie samochodu?
     reason_2_text: Tylko regularne przeglądy są w stanie zapobiegać awariom samochodu.
     reason_3: Nie ufasz warsztatom samochodowym?
@@ -70,7 +77,6 @@ pl:
     text: Pomożemy Ci rozwiązać je szybko i skutecznie.
   product: Produkt
   product_headline: Nasze usługi zadowolą każdego – wybierz co chcesz.
-  product_text: Połącz ze sobą usługi, tak aby uzyskać jak najlepszą opiekę dla swojego auta.
   products:
     product_1:
       content_1: Olej silnikowy
@@ -78,14 +84,23 @@ pl:
       content_3: Robocizna
       content_4: FSFY Ochrona silnika
       content_5: FSFY Uber Voucher
-      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę uzyskujesz prawo do jednej wymiany oleju w ciągu roku. W tym celu wystarczy, że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów samochodowych w Twoim pobliżu.
+      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę uzyskujesz
+        prawo do jednej wymiany oleju w ciągu roku. W tym celu wystarczy, że zgłosisz
+        się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów
+        samochodowych w Twoim pobliżu.
       name: Wymiana oleju
       per_month: "(9,99 EUR is about 45 zł)"
       per_year: '107,99'
-      short_description: Jedna pełna wymiana oleju w ciągu roku dla lepszej pracy silnika
-      text: Każdy samochód potrzebuje oleju do smarowania i chłodzenia wszystkich ruchomych elementów. Wymiana oleju w regularnych odstępach czasu pozwala z łatwością uniknąć zwiększonego zużycia silnika. Wymiana oleju to nie luksus, a techniczny obowiązek.Nasza usługa wymiany oleju zapobiega uszkodzeniom silnika, a oprócz tego regularnie wymieniany olej podniesie wartość Twojego samochodu.
+      short_description: Jedna pełna wymiana oleju w ciągu roku dla lepszej pracy
+        silnika
+      text: Każdy samochód potrzebuje oleju do smarowania i chłodzenia wszystkich
+        ruchomych elementów. Wymiana oleju w regularnych odstępach czasu pozwala z
+        łatwością uniknąć zwiększonego zużycia silnika. Wymiana oleju to nie luksus,
+        a techniczny obowiązek.Nasza usługa wymiany oleju zapobiega uszkodzeniom silnika,
+        a oprócz tego regularnie wymieniany olej podniesie wartość Twojego samochodu.
       tooltip_1: Użyty zostanie jeden z rekomendowanych olejów o odpowiedniej specyfikacji
-      tooltip_2: Nasze warsztaty korzystają z filtrów wysokiej jakości, aby zapewnić jak najlepszą filtrację oleju
+      tooltip_2: Nasze warsztaty korzystają z filtrów wysokiej jakości, aby zapewnić
+        jak najlepszą filtrację oleju
       tooltip_3: Wszystko jest wliczone w cenę – nic nie dopłacasz
       tooltip_4: Twój silnik jest ubezpieczony do kwoty 800 Euro (sprawdzenie i naprawa)
       tooltip_5: Otrzymaj voucher do aplikacji Uber o wartości x zł
@@ -95,10 +110,17 @@ pl:
       content_3: Wyważanie kół
       content_4: Robocizna
       content_5: FSFY Ochrona opon
-      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę otrzymujesz prawo do dwóch wymian opon w ciągu roku. W tym celu wystarczy, że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów samochodowych w Twoim pobliżu.
+      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę otrzymujesz
+        prawo do dwóch wymian opon w ciągu roku. W tym celu wystarczy, że zgłosisz
+        się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów
+        samochodowych w Twoim pobliżu.
       name: Wymiana opon
-      short_description: Dla swojego bezpieczeństwa masz zapewnione dwie wymiany opon w ciągu roku, po to aby zawsze jeździć na właściwych oponach.
-      text: Korzystanie ze specjalnych opon letnich i zimowych ma kluczowy wpływ na bezpieczeństwo – nie ignoruj tego. W wielu europejskich krajach wymiana jest obowiązkowa. Nasza usługa obejmuje rutynową zmianę i profesjonalne przechowywanie Twoich letnich i zimowych opon.
+      short_description: Dla swojego bezpieczeństwa masz zapewnione dwie wymiany opon
+        w ciągu roku, po to aby zawsze jeździć na właściwych oponach.
+      text: Korzystanie ze specjalnych opon letnich i zimowych ma kluczowy wpływ na
+        bezpieczeństwo – nie ignoruj tego. W wielu europejskich krajach wymiana jest
+        obowiązkowa. Nasza usługa obejmuje rutynową zmianę i profesjonalne przechowywanie
+        Twoich letnich i zimowych opon.
       tooltip_1: Coming soon
       tooltip_2: Coming soon
       tooltip_3: Coming soon
@@ -110,10 +132,17 @@ pl:
       content_3: Sprawdzenie klimatyzacji
       content_4: Robocizna
       content_5: FSFY Usługa przeglądu
-      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę uzyskujesz prawo do jednego przeglądu pobieżnego w ciągu roku. W tym celu wystarczy, że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów samochodowych w Twoim pobliżu.
+      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę uzyskujesz
+        prawo do jednego przeglądu pobieżnego w ciągu roku. W tym celu wystarczy,
+        że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych
+        warsztatów samochodowych w Twoim pobliżu.
       name: Przegląd pobieżny
-      short_description: Jeden zwykły przegląd pobieżny co roku, aby upewnić się, że auto działa jak należy
-      text: Raz do roku Twoje auto powinno zostać sprawdzone. Przede wszystkim należy sprawdzić wszystkie części od których zależy bezpieczeństwo na drodze. Nie ważne czy szykujesz się na podróż, czy po prostu chcesz sprawdzić samochód przed zimą. Pomożemy Ci zachować bezpieczeństwo na drodze.
+      short_description: Jeden zwykły przegląd pobieżny co roku, aby upewnić się,
+        że auto działa jak należy
+      text: Raz do roku Twoje auto powinno zostać sprawdzone. Przede wszystkim należy
+        sprawdzić wszystkie części od których zależy bezpieczeństwo na drodze. Nie
+        ważne czy szykujesz się na podróż, czy po prostu chcesz sprawdzić samochód
+        przed zimą. Pomożemy Ci zachować bezpieczeństwo na drodze.
       tooltip_1: Coming soon
       tooltip_2: Coming soon
       tooltip_3: Coming soon
@@ -125,10 +154,16 @@ pl:
       content_3: Serwis klimatyzacji zgodnie z instrukcją producenta
       content_4: Robocizna
       content_5: FSFY Uber Voucher
-      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę otrzymujesz prawo do jednego przeglądu generalnego w ciągu roku. W tym celu wystarczy, że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów samochodowych w Twoim pobliżu.
+      how_does_work: Po prostu zapisz się do usługi. Za niską miesięczną opłatę otrzymujesz
+        prawo do jednego przeglądu generalnego w ciągu roku. W tym celu wystarczy,
+        że zgłosisz się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych
+        warsztatów samochodowych w Twoim pobliżu.
       name: Przegląd generalny
-      short_description: Jeden przegląd co roku, zapewniający utrzymanie auta w doskonałym stanie
-      text: Ten produkt spełni wszystkie indywidualne wymagania Twojego samochodu. Zależnie od całkowitego przebiegu pojazdu, zostaną wykonane należyte czynności. Pamiętaj o tym, że regularne serwisowanie auta podnosi jego wartość.
+      short_description: Jeden przegląd co roku, zapewniający utrzymanie auta w doskonałym
+        stanie
+      text: Ten produkt spełni wszystkie indywidualne wymagania Twojego samochodu.
+        Zależnie od całkowitego przebiegu pojazdu, zostaną wykonane należyte czynności.
+        Pamiętaj o tym, że regularne serwisowanie auta podnosi jego wartość.
       tooltip_1: Coming soon
       tooltip_2: Coming soon
       tooltip_3: Coming soon
@@ -136,21 +171,28 @@ pl:
       tooltip_5: Coming soon
     secure_purchase: Secure Purchase
     subscribe_now: Subscribe Now
+  product_text: Połącz ze sobą usługi, tak aby uzyskać jak najlepszą opiekę dla swojego
+    auta.
   sign_up_now: Zarejestruj się!
   sing_in_with_facebook: Zaloguj z użyciem Facebooka
   solution:
     headline: Zapewniamy regularny serwis Twojego pojazdu!
     reason_1: Ciesz się wolnością i niskimi opłatami.
-    reason_1_text: Koszt usługi jest podzielony na małe raty, a niektóre z dodatkowych usług dostajesz za darmo.
+    reason_1_text: Koszt usługi jest podzielony na małe raty, a niektóre z dodatkowych
+      usług dostajesz za darmo.
     reason_2: Bądź pewien, że wszystko zostanie zrobione na czas.
     reason_2_text: Auto wymaga uwagi? Żaden problem. Po prostu użyj vouchera.
     reason_3: Polecamy wyłącznie sprawdzonych mechaników.
-    reason_3_text: Każdy warsztat samochodowy, aby zostać partnerem FlatService4You musi przejść wymagający proces.
+    reason_3_text: Każdy warsztat samochodowy, aby zostać partnerem FlatService4You
+      musi przejść wymagający proces.
     reason_4: Bądź pewien, że Twoja rodzina jest bezpieczna na drodze.
-    reason_4_text: Unikaj niebezpiecznych awarii na drodze regularnie dbając o swój samochód.
+    reason_4_text: Unikaj niebezpiecznych awarii na drodze regularnie dbając o swój
+      samochód.
     reason_5: Rekomendujemy tylko solidne serwisy.
     reason_6: Dokładnie opisujemy, co zostało zrobione i kontrolujemy pracę serwisów.
-    text: Wybierz jedną z naszych usług, płać niską opłatę miesięczną i bądź pewien, że wszystko będzie zrobione jak należy. Odbierz voucher i odwiedź jeden z naszych certyfikowanych warsztatów.
+    text: Wybierz jedną z naszych usług, płać niską opłatę miesięczną i bądź pewien,
+      że wszystko będzie zrobione jak należy. Odbierz voucher i odwiedź jeden z naszych
+      certyfikowanych warsztatów.
   team: Zespół
   teams:
     member_1: Barbara
@@ -158,4 +200,5 @@ pl:
     member_3: Maciej
     member_4: Ronny
   video_headline: Czym jest FlatService4You?
-  video_text: FlatService4You to portal internetowy oferujący usługi naprawy samochodów. Zobacz jak to działa na filmie.
+  video_text: FlatService4You to portal internetowy oferujący usługi naprawy samochodów.
+    Zobacz jak to działa na filmie.
