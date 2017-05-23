@@ -111,6 +111,7 @@ en:
   product_text: Combine the services as you wish and get the best service for your car.
   products:
     header: Our car repair services meet your needs - choose yours.
+    per_month: /Month
     product_1:
       added_values: FSFY Engine Protect and FSFY Uber Voucher
       content_1: Motor Oil

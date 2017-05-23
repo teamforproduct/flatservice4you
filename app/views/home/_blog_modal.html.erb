@@ -69,6 +69,68 @@
   </div>
 </div>
 
+<!--  Pages modal  -->
+<div class="carousel slide sz_easeOutInCubic fade modal sz_bd_black sz_post_sldr_control sz_post_slider_mod_sld" role="dialog" data-duration="2000" data-interval="false" data-ride="carousel" id="sz_pages_slider_6_col">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a href="#" class="sz_post_slider_close" data-dismiss="modal">
+        <span class="fa fa-times"></span>
+      </a>
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active" style="transition-duration: 2000ms;">
+          <div class="sz_post_slider_slide_txt">
+            <h1><%= t('pages.imprint.title') %></h1>
+            <div class="sz_post_slider_slide_author">
+              <a href="#">
+                <%= image_tag('team_2.jpg') %>
+                <span>Tufan</span>
+              </a>
+              <span><%= t('pages.imprint.time') %></span>
+            </div>
+            <%= t('pages.imprint.content').html_safe %>
+          </div>
+        </div>
+
+        <div class="item" style="transition-duration: 2000ms;">
+          <div class="sz_post_slider_slide_txt">
+            <h1><%= t('pages.policy.title') %></h1>
+            <div class="sz_post_slider_slide_author">
+              <a href="#">
+                <%= image_tag('team_2.jpg') %>
+                <span>Tufan</span>
+              </a>
+              <span><%= t('pages.policy.time') %></span>
+            </div>
+            <%= t('pages.policy.content').html_safe %>
+          </div>
+        </div>
+
+        <div class="item" style="transition-duration: 2000ms;">
+          <div class="sz_post_slider_slide_txt">
+            <h1><%= t('pages.disclaimer.title') %></h1>
+            <div class="sz_post_slider_slide_author">
+              <a href="#">
+                <%= image_tag('team_2.jpg') %>
+                <span>Tufan</span>
+              </a>
+              <span><%= t('pages.disclaimer.time') %></span>
+            </div>
+            <%= t('pages.disclaimer.content').html_safe %>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control left" href="#sz_pages_slider_6_col" data-slide="prev" role="button">
+        <span class="fa fa-angle-left"></span>
+      </a>
+
+      <a class="carousel-control right" href="#sz_pages_slider_6_col" data-slide="next" role="button">
+        <span class="fa fa-angle-right"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
 <!-- Products modal -->
 <div class="carousel slide sz_easeOutInCubic fade modal sz_bd_black sz_shop_sldr_control sz_shop_slider_mod_sld" role="dialog" data-duration="2000" data-interval="false" data-ride="carousel" id="sz_shop_slider_4_col">
   <div class="modal-dialog">
