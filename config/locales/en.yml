@@ -92,6 +92,19 @@ en:
     post_2_title: Do regular oil changes increase the resale value?
     post_3_content: "<p>Without care and checks, a vehicle becomes not only unsightly, but also unreliable. Costly damage can only be avoided with regular maintenance. This also includes regular oil changes. Many drivers don´t just ask themselves: when should I change the oil? Some doubt whether an oil change is necessary at all. However, all motor oils are subject to a natural aging process - the quality of the lubricant is reduced over the years. There are other factors to consider.</p><p>In the cold season the fuel condenses and turns into a condensate on the piston walls, diluting the gasoline. Through abrasion, metallic particles get into the oil, corrode it and reduce its lubrication quality. Blow-by gases flowing past the piston rings contaminate the engine oil with combustion residues. As a result, not only does the lubrication deteriorate, so does the viscosity of the oil. This means that the oil no longer corresponds to the original specification – so lubrication and cooling deteriorate. Without regular oil changes, premature wearing of the engine is imminent.</p><p>The question remains: When to change the oil? The oil change intervals can be taken from the vehicle´s logbook and should be observed. Anyone who neglects an oil change must count on the following: the inevitable consequences are increased wear on all surfaces and bearings requiring lubrication. Contaminated spark plugs, corrosion damage on the oil pump and a prematurely worn catalytic converter are further unpleasant consequences. However, fuel consumption will also increase and the exhaust gas values ​​will become poorer. The exhaust gas purification system will no longer be able to completely filter the unburned foreign substances, which means that the catalyst and the environment are also heavier.</p><p>When it comes to determining times to change the oil, it is necessary to distinguish between fixed and dynamic alternating intervals. With fixed intervals, mileage and period are used. Dynamic change intervals are calculated by the on-board computer and displayed in the cockpit. The cost of neglecting the oil change intervals cannot be predicted reliably. If you're lucky, you can still travel miles with the old oil without causing any defects. However, wear and tear, increased operating costs and greater environmental impact are certain. If damage occurs, it can be quite costly for the driver. If you do not take any risks and want to enjoy your engine, you should take the oil change question seriously and never miss a regular oil change.</p>"
     post_3_title: Regular oil changes help cars to live longer
+  pages:
+    imprint:
+      title: imprint title
+      time: 2 month ago
+      content: "<p>imprint content</p>"
+    policy:
+      title: policy title
+      time: 2 month ago
+      content: "<p>policy content</p>"
+    disclaimer:
+      title: disclaimer title
+      time: 2 month ago
+      content: "<p>disclaimer content</p>"
   price: Price
   prices:
     header: Price for each service
