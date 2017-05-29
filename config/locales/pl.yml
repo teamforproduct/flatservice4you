@@ -23,6 +23,8 @@ pl:
       mnie "niespodziewane" wymiany oleju. Silnik mojego auta ma zapewniony odpowiedni
       serwis, a do tego zawsze dysponuję odpowiednią dokumentacją potwierdzającą,
       że dbałem o swój samochód.
+  coming_soon: Wkrótce
+  days: Dni
   faq: FAQ - najczęściej zadawane pytania
   faqs:
     answer_1: Każda usługa jest ważna przez okres 12 miesięcy.
@@ -65,6 +67,122 @@ pl:
     register: Zarejestruj się
     social: Bądźmy w kontakcie
     what_is_fs4y: Czym jest FlatService4You?
+  minutes: Minuty
+  pages:
+    imprint:
+      content: "<p>FlatService4You Poland<br />c/o Autobooking 24/7 GmbH Oddział w
+        Polsce <br />ul. Sienkiewicza 85/87 lok. 8 Ł&oacute;dź <br />90-057 Polen</p>"
+      title: Stopka
+    policy:
+      content: "<p>Zgoda na przetwarzanie danych osobowych<br />&nbsp;<br />Wyrażam
+        zgodę na przetwarzanie swoich danych osobowych w celach marketingowych przez
+        Autobooking24/7 GmbH zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie
+        danych osobowych (tekst jednolity: Dz. U. 2002 r. Nr 101 poz. 926 z p&oacute;źn.
+        zm.) oraz na otrzymywanie od Autobooking 24/7 GmbH informacji handlowych drogą
+        elektroniczną zgodnie z ustawą z dnia 18.07.2002 r. (Dz.U. nr 144, poz.1204
+        z p&oacute;źn. zm.) o świadczeniu usług drogą elektroniczną.</p>\r\n<p>Administratorem
+        danych osobowych przetwarzanych w celach rekrutacyjnych jest XYZ Sp. z o.o.
+        (adres firmy). Dane nie będą udostępniane odbiorcom danych w rozumieniu art.
+        7 pkt 6 ustawy z dnia 29 sierpnia 1997 r. o ochronie danych osobowych. Przysługuje
+        Pani/Panu prawo dostępu do treści swoich danych i&nbsp; ich poprawiania. Podanie
+        danych jest dobrowolne.</p>"
+      title: Polityka prywatności
+  posts:
+    post_1_content: "<h2><strong>Wyższe zużywanie silnika? Zapobiega temu regularna
+      wymiana oleju</strong></h2>\r\n<p>Każdy samoch&oacute;d potrzebuje oleju silnikowego
+      i chłodzenia wszystkich części ruchomych. Nowoczesne wielosezonowe oleje zabezpieczają
+      sprawną pracę silnika latem i zimą. Podwyższone zużycie silnika jest możliwe
+      do uniknięcia, jeżeli dba się o regularną wymianę oleju. Systematyczna wymiana
+      oleju nie jest luksusem, ale techniczną koniecznością.</p>\r\n<h3><strong>Olej
+      silnikowy ma ograniczoną przydatność</strong></h3>\r\n<p>Olej silnikowy usuwa
+      zabrudzenia z części, a następnie trafiają one do filtra oleju. Zmiana oleju
+      przypada po konkretnym przebiegu, ale jest wymagana r&oacute;wnież przy niskiej
+      mocy silnika. Olej z upływem czasu gromadzi się w korodowanych częściach i składniki
+      oleju silnikowego tracą swoje działanie. Zmienia się r&oacute;wnież lepkość,
+      ponieważ olej rozrzedza się wraz z wieloma rozruchami na zimno i przez skraplanie
+      pary wodnej. Rezultatem jest zwiększone zużycie silnika, kt&oacute;re ostatecznie
+      może prowadzić do jego uszkodzeń.</p>\r\n<h3><strong>Wymiana oleju silnikowego
+      chroni środowisko i o</strong><strong>szczędza </strong><strong>pieniądze</strong></h3>\r\n<p>Kto
+      łączy regularną wymianę oleju z ostrożną jazdą i po zimnym starcie silnika nie
+      wchodzi od razu na wysokie obroty, może długo cieszyć się swoim autem i uniknie
+      drogich napraw. W wielu samochodach czas następnej wymiany oleju został dynamicznie
+      obliczony i jest sygnalizowany kierowcy odpowiednio wcześnie w kokpicie. Prowadzący
+      samoch&oacute;d oszczędza na kosztownych naprawach, utrzymuje silnik w czystości
+      i oszczędza dzięki niskiemu zużyciu paliwa.</p>\r\n<h3><strong>Brak wymiany
+      oleju silnikowego grozi kosztownymi uszkodzeniami silnika</strong></h3>\r\n<p>We
+      interesie kierowcy leży to, żeby nie odwlekać zbliżającej się wymiany oleju.
+      Wyższe zużycie silnika co prawda nie jest widoczne z zewnątrz, jednak prowadzi
+      do zwiększonego zużycia, gorszej emisji spalin i zmniejszonych osiąg&oacute;w.
+      Wyższe zużycie silnika może być spowodowane r&oacute;wnież nie prawidowo dobraną
+      lepkością lub dolewaniem starego oleju. Z tego powodu podczas wymiany oleju
+      powinien być dolewany tylko wielosezonowy olej najwyższej jakości z nieuszkodzonego
+      pojemnika.</p>"
+    post_1_title: Wyższe zużywanie silnika? Zapobiega temu regularna wymiana oleju
+    post_2_content: "<h2><strong>Czy regularna wymiana oleju silnikowego podnosi wartość
+      odsprzedaży auta?</strong></h2>\r\n<p>Kupujący używane auta są dzisiaj bardziej
+      sceptyczni niż kiedykolwiek. Sprzedawcy używanych samochod&oacute;w są od dawna
+      krytyczni i oceniają zużycia, jako ukryte wady i ukryte usterki. Do tego r&oacute;wnież
+      osoby prywatne pomijają zabranie ze sobą osoby znającej się na technice pojazd&oacute;w,
+      kt&oacute;ra przy zakupie dokładnie przyjrzałaby się oferowanemu pojazdowi.
+      Czy regularna wymiana oleju przyczynia się do osiągnięcia wyższej ceny sprzedaży?</p>\r\n<h3><strong>Wymiana
+      oleju buduje zaufanie</strong></h3>\r\n<p>R&oacute;wnież doświadczeni hobbyści
+      przy zakupie używanego auta mogą nie zajrzeć do silnika i wyrobić sobie zdanie
+      na podstawie stanu łożyska korbowodu lub pierścienia tłokowego. Jednak, kto
+      może udowodnić potencjalnemu klientowi wymiany oleju poprzez wpisy w zeszycie
+      serwisowym, zwiększa swoje szanse na uzyskanie lepszej ceny sprzedaży. Jeżeli
+      była przeprowadzana regularna wymiana oleju, to znaczy, że sprzedawca dbał o
+      sw&oacute;j pojazd. Osoba zainteresowana kupnem wnioskuje z tego, że właściciel
+      wystawił r&oacute;wnież porządny samoch&oacute;d z zadbanym silnikiem.</p>\r\n<h3><strong>Dokumentacja
+      jest ważna</strong></h3>\r\n<p>Profesjonalne warsztaty samochodowe dokumentują
+      wymianę oleju w książeczce serwisowej samochodu. Często regularna wymiana oleju
+      wypada w trakcie większego lub mniejszego przeglądu i jest uwzględniana wraz
+      z wymianą filtru i innymi częściami. Jednak r&oacute;wnież oddzielnie przeprowadzona
+      wymiana oleju powinna być udokumentowana przez warsztat.</p>\r\n<h3><strong>Regularna
+      wymiana oleju podnosi wartość pojazdu</strong></h3>\r\n<p>Regularna wymiana
+      oleju opłaca się podw&oacute;jnie.&nbsp; Kierowca zyskuje czysto pracujący silnik,
+      kt&oacute;ry jest przyjazny dla otoczenia i obniża koszty paliwa. Przy odsprzedaży
+      ma r&oacute;wnież w ręku dobre argumenty i może upewnić kupującego, że silnik
+      jest w dobrym stanie i ma przed sobą jeszcze wiele do przejechania. To z pewnością
+      dobre powody do regularnego zmieniania oleju.</p>"
+    post_2_title: Czy regularna wymiana oleju silnikowego podnosi wartość odsprzedaży
+      auta?
+    post_3_content: "<h2><strong>Regularna wymiana oleju pozwala pojazdowi dłużej
+      funkcjonować</strong></h2>\r\n<p>Bez konserwacji i kontroli samoch&oacute;d
+      stanie się nie tylko brzydki, lecz r&oacute;wnież niesolidny. Kosztownych szk&oacute;d
+      można uniknąć wyłącznie poprzez regularną konserwacje. Do tego zalicza się r&oacute;wnież
+      systematyczna wymiana oleju. Wielu kierowc&oacute;w pyta nie tylko: kiedy wymienić
+      olej? Niekt&oacute;rzy zastanawiają się r&oacute;wnież, czy wymiana oleju jest
+      koniecznie potrzebna. Każdy olej silnikowy ulega przecież naturalnym procesom
+      degradacji - jakość smar&oacute;w obniża się przez lata. Do tego dochodzą inne
+      czynniki.</p>\r\n<p>Przy niskich temperaturach paliwo skrapla się z postaci
+      pary wodnej na ściankach tłoku i rozcieńcza benzynę. Poprzez ścieranie metalowe
+      cząstki dostają się do oleju, korodują i obniżają jakość jego składnik&oacute;w.
+      A napływające z pierścieni tłokowych tzw. blow-by-gazy zanieczyszczają olej
+      silnikowy pozostałościami ze spalania. W wyniku tego pogarsza się nie tylko
+      smarowanie, lecz r&oacute;wnież lepkość oleju. Przez to olej nie odpowiada już
+      początkowym specyfikacjom - smarowanie i chłodzenie pogarsza się. Brak wymiany
+      oleju prowadzi do przedwczesnego zużywania się silnika.</p>\r\n<p>Pozostaje
+      jeszcze pytanie: Kiedy wymieniać olej? Okres wymiany oleju można wywnioskować
+      z książki serwisowej i powinien być on przestrzegany. Kto zaniedbuje wymianę
+      oleju, musi liczyć się z pośrednimi szkodami. Do nieuniknionych konsekwencji
+      zalicza się zwiększone zużycie wszystkich smarowanych powierzchni i łożysk.
+      Zanieczyszczone świece zapłonowe, szkody wywołane korozją pompy oleju i przedwczesne
+      zniszczenia katalizatora są kolejnymi nieprzyjemnymi skutkami. R&oacute;wnież
+      zużycie paliwa wzrasta i pogarsza się emisja spalin. System oczyszczania spalin
+      może nie do końca odfiltrowywać niepalne domieszki, przez co katalizator i środowisko
+      będą mocniej obciążone.</p>\r\n<p>Przy pytaniu o częstotliwość wymiany oleju
+      należy odr&oacute;żnić stałe i dynamiczne okresy wymiany. Przy stałych przedziałach
+      bierze się pod uwagę przebieg i czas. Dynamiczne okresy wymiany są wyliczane
+      przez komputer pokładowy i pokazywane kierowcy w kabinie. Koszt&oacute;w jednorazowego
+      zaniedbania wymiany oleju nie można dokładnie przewidzieć. Przy większym szczęściu
+      można przejechać jeszcze wiele kilometr&oacute;w ze starym olejem, bez wystąpienia
+      defekt&oacute;w. Pewne jest jednak mocniejsze zużycie, podwyższone koszty paliwa
+      i większe zanieczyszczanie paliwa. W końcu pojawią się jednak szkody, kt&oacute;re
+      mogą być dla kierowcy naprawdę kosztowne. Kto nie chce podejmować ryzyka i woli
+      długo cieszyć się swoim silnikiem, powinien poważnie potraktować odpowiedź na
+      pytanie o częstotliwości wymiany oleju i nie rezygnować z systematycznej wymiany
+      oleju.</p>"
+    post_3_title: Regularna wymiana oleju pozwala pojazdowi dłużej funkcjonować
   price: Cena
   prices:
     header: Cena za każdą z usług
@@ -83,6 +201,7 @@ pl:
   product: Produkt
   product_headline: Nasze usługi zadowolą każdego – wybierz co chcesz.
   products:
+    per_month: "/Miesiąc"
     product_1:
       content_1: Olej silnikowy
       content_2: Filtr oleju
@@ -94,7 +213,7 @@ pl:
         się po voucher na stronie, a my Ci go wyślemy razem z listą zaufanych warsztatów
         samochodowych w Twoim pobliżu.
       name: Wymiana oleju
-      per_month: 29,99 zł
+      per_month: '43,99'
       per_year: '107,99'
       short_description: Jedna pełna wymiana oleju w ciągu roku dla lepszej pracy
         silnika
@@ -126,11 +245,11 @@ pl:
         bezpieczeństwo – nie ignoruj tego. W wielu europejskich krajach wymiana jest
         obowiązkowa. Nasza usługa obejmuje rutynową zmianę i profesjonalne przechowywanie
         Twoich letnich i zimowych opon.
-      tooltip_1: Coming soon
-      tooltip_2: Coming soon
-      tooltip_3: Coming soon
-      tooltip_4: Coming soon
-      tooltip_5: Coming soon
+      tooltip_1: Wkrótce
+      tooltip_2: Wkrótce
+      tooltip_3: Wkrótce
+      tooltip_4: Wkrótce
+      tooltip_5: Wkrótce
     product_3:
       content_1: Kontrole wzrokowe
       content_2: Test działania elektroniki
@@ -148,11 +267,11 @@ pl:
         sprawdzić wszystkie części od których zależy bezpieczeństwo na drodze. Nie
         ważne czy szykujesz się na podróż, czy po prostu chcesz sprawdzić samochód
         przed zimą. Pomożemy Ci zachować bezpieczeństwo na drodze.
-      tooltip_1: Coming soon
-      tooltip_2: Coming soon
-      tooltip_3: Coming soon
-      tooltip_4: Coming soon
-      tooltip_5: Coming soon
+      tooltip_1: Wkrótce
+      tooltip_2: Wkrótce
+      tooltip_3: Wkrótce
+      tooltip_4: Wkrótce
+      tooltip_5: Wkrótce
     product_4:
       content_1: Kontrole wzrokowe
       content_2: Test działania elektroniki
@@ -169,11 +288,11 @@ pl:
       text: Ten produkt spełni wszystkie indywidualne wymagania Twojego samochodu.
         Zależnie od całkowitego przebiegu pojazdu, zostaną wykonane należyte czynności.
         Pamiętaj o tym, że regularne serwisowanie auta podnosi jego wartość.
-      tooltip_1: Coming soon
-      tooltip_2: Coming soon
-      tooltip_3: Coming soon
-      tooltip_4: Coming soon
-      tooltip_5: Coming soon
+      tooltip_1: Wkrótce
+      tooltip_2: Wkrótce
+      tooltip_3: Wkrótce
+      tooltip_4: Wkrótce
+      tooltip_5: Wkrótce
     secure_purchase: Secure Purchase
     subscribe_now: Subscribe Now
   product_text: Połącz ze sobą usługi, tak aby uzyskać jak najlepszą opiekę dla swojego
@@ -207,3 +326,4 @@ pl:
   video_headline: Czym jest FlatService4You?
   video_text: FlatService4You to portal internetowy oferujący usługi naprawy samochodów.
     Zobacz jak to działa na filmie.
+  weeks: Tygodni

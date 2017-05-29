@@ -95,15 +95,12 @@ en:
   pages:
     imprint:
       title: imprint title
-      time: 2 month ago
       content: "<p>imprint content</p>"
     policy:
       title: policy title
-      time: 2 month ago
       content: "<p>policy content</p>"
     disclaimer:
       title: disclaimer title
-      time: 2 month ago
       content: "<p>disclaimer content</p>"
   price: Price
   prices:
