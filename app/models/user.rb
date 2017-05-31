@@ -21,11 +21,11 @@ class User < ActiveRecord::Base
       )
 
       user.providers.create({
-                              provider: auth.provider,
-                              uid: auth.uid,
-                              oauth_token: auth.credentials.token,
-                              link: auth.extra.raw_info.link
-                            })
+        provider: auth.provider,
+        uid: auth.uid,
+        oauth_token: auth.credentials.token,
+        link: auth.extra.raw_info.link
+      })
     end
 
     user

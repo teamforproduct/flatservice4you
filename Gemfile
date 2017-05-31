@@ -62,8 +62,11 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
   gem 'capistrano-rake'
+  
+  gem 'letter_opener'
 end
 
 group :production do
   gem 'unicorn'
+  gem 'mailgun_rails'
 end

@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.default_url_options = { host: 'http://192.168.1.6:3000' }
+  config.action_mailer.asset_host = 'http://192.168.1.6:3000'
 end
