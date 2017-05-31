@@ -1,5 +1,13 @@
 ---
 en:
+  email:
+    welcome_email:
+      thank_you: Thank you!
+      discount: You get 15% discount for the first year for the oil service.
+      discount_time: As soon as we are starting to sell our car repair services we will contact you for further details.
+      facebook_like: Like us on Facebook
+      go_home_page: Go to homepage
+      here: here
   active_admin:
     admin_user_index: Admin user
     user_index: User
@@ -120,6 +128,7 @@ en:
   product_headline: Our car repair services meet your needs - choose yours.
   product_text: Combine the services as you wish and get the best service for your car.
   products:
+    currency: €
     header: Our car repair services meet your needs - choose yours.
     per_month: /Month
     product_1:

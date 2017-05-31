@@ -1,5 +1,13 @@
 ---
 pl:
+  email:
+    welcome_email:
+      thank_you: Dziękujemy!
+      discount: Otrzymasz 15% rabatu na wymianę oleju w pierwszym roku.
+      discount_time: Jak tylko zaczniemy oferować usługi napraw samochodów, skontaktujemy się z Państwem w celu przekazania szczegółowych informacji.
+      facebook_like: Polub nas na Facebooku 
+      go_home_page: Przejdź do strony głównej  
+      here: tutaj
   activerecord:
     attributes:
       car:
@@ -201,6 +209,7 @@ pl:
   product: Produkt
   product_headline: Nasze usługi zadowolą każdego – wybierz co chcesz.
   products:
+    currency: zł
     per_month: "/Miesiąc"
     product_1:
       content_1: Olej silnikowy

@@ -23,7 +23,7 @@
             <table width="400" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
               <tbody><tr>
                 <td width="100%" height="50">
-                  <%= link_to(root_url) { image_tag('email/logo_min.png', style: "display:block; margin: 0 auto;", width: "96", alt: "", border: "0") } %>
+                  <%= link_to(root_url) { image_tag('email/logo_min.png', style: "display:block; margin: 12px auto;", width: "96", alt: "", border: "0") } %>
                 </td>
               </tr>
             </tbody></table><!-- End Space -->
@@ -45,7 +45,7 @@
                           </tr>
                           <tr>
                             <td valign="middle" width="100%" style="text-align: center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 18px; color: #ffffff; line-height: 26px; font-weight: 700;" class="fullCenter" t-style="not4WhiteText" mc:edit="27" object="text-editable">
-                              <singleline>Thank you!</singleline>
+                              <singleline><%= t('email.welcome_email.thank_you') %></singleline>
                             </td>
                           </tr>
                           <tr>
@@ -87,7 +87,7 @@
                           </tr>
                           <tr>
                             <td valign="middle" width="100%" style="text-align: center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 34px; color: #3fa9d0; line-height: 40px; font-weight: 100;" class="fullCenter" t-style="not4BlueText" mc:edit="29" object="text-editable">
-                              <singleline>You get 15% discount for the first year for the oil service.</singleline>
+                              <singleline><%= t('email.welcome_email.discount') %></singleline>
                             </td>
                           </tr>
                         </tbody></table>
@@ -106,7 +106,7 @@
                           </tr>
                           <tr>
                             <td valign="middle" width="100%" style="text-align: center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 13px; color: #97999b; line-height: 24px; font-weight: 400;" class="fullCenter" t-style="not4Text" mc:edit="30" object="text-editable">
-                              <singleline>As soon as we are starting to sell our car repair services we will contact you for further details.</singleline>
+                              <singleline><%= t('email.welcome_email.discount_time') %></singleline>
                             </td>
                           </tr>
                         </tbody></table>
@@ -140,7 +140,7 @@
                                 <tbody><tr>
                                   <td align="center" height="40" bgcolor="#3fa9d0" c-style="not4BlueBG" style="border-radius: 5px; padding-left: 25px; padding-right: 25px; font-family: &quot;Open Sans&quot;, Helvetica, Arial, sans-serif; color: rgb(255, 255, 255); font-size: 15px; font-weight: 700; line-height: 1px; background-color: #627aac;" t-style="not4WhiteText" mc:edit="31">
        
-                                    <a href="https://www.facebook.com/FlatService4You-1866862593557550/" style="color: #ffffff; text-decoration: none; width: 100%;" t-style="not4WhiteText"><multiline>Like us on Facebook</multiline></a>
+                                    <a href="https://www.facebook.com/FlatService4You-1866862593557550/" style="color: #ffffff; text-decoration: none; width: 100%;" t-style="not4WhiteText"><multiline><%= t('email.welcome_email.facebook_like') %></multiline></a>
                                     
                                   </td>
                                 </tr>
@@ -164,7 +164,7 @@
                           </tr>
                           <tr>
                             <td valign="middle" width="100%" style="text-align: center; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 13px; color: #5f6a74; line-height: 24px; font-weight: 400;" class="fullCenter" t-style="not4Text" object="text-editable" mc:edit="32">
-                              <multiline>Go to homepage <a href="<%= root_url %>" style="color: #3fa9d0;" t-style="not4BlueText">here</a></multiline>
+                              <multiline><%= t('email.welcome_email.go_home_page') %> <a href="<%= root_url %>" style="color: #3fa9d0;" t-style="not4BlueText"><%= t('email.welcome_email.here') %></a></multiline>
                             </td>
                           </tr>
                         </tbody></table>
