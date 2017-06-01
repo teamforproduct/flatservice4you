@@ -1,4 +1,4 @@
-<%- if Rails.env.production? and I18n.locale == :pl %>
+<%- if Rails.env.production? %>
   <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -8,4 +8,23 @@
    ga('create', 'UA-86975581-1', 'auto');
    ga('send', 'pageview');
   </script>
+
+  <!-- Google Code for Rejestracja Conversion Page -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 854089807;
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "ffffff";
+  var google_conversion_label = "oS3qCJOrznEQz8ChlwM";
+  var google_remarketing_only = false;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/854089807/?label=oS3qCJOrznEQz8ChlwM&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
 <% end %>
