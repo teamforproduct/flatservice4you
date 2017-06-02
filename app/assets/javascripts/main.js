@@ -127,7 +127,7 @@ $(function () {
 	// Counter 
 	var counter = function() {
 		$('.js-counter').each(function(index, item) {
-			var left = Math.max(new Date("2017-07-01") - new Date(), 0);
+			var left = Math.max(new Date("2017-08-01") - new Date(), 0);
 
 			switch($(item).data('type')) {
 		    case "weeks":
