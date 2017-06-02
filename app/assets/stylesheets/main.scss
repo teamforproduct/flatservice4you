@@ -190,6 +190,11 @@ body#flatservice {
         line-height: 60px;
     }
 
+    #template-nt-offcanvass, #template-nt-menu, #template-nt-page {
+        -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+        backface-visibility: hidden;
+    }
+
     @media screen and (max-width: 992px) {
         .template-nt-intro {
             #register-form {
@@ -224,6 +229,9 @@ body#flatservice {
             -moz-background-attachment: scroll !important;
             -o-background-attachment: scroll !important;
             background-attachment: scroll !important;
+
+            -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+            backface-visibility: hidden;
 
             .template-nt-intro p {
                 color: #2f98c8;
