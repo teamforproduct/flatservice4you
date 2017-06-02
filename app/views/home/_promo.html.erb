@@ -6,7 +6,7 @@
         <p class="template-nt-sub to-animate fadeInUp animated"><%= t('video_text')%></p>
       </div>
 
-      <%= video_tag(["FS4Y_#{I18n.locale}.mp4"], style: 'width: 80%', controls: true) %>
+      <%= video_tag(["FS4Y_#{I18n.locale}.mp4"], style: 'width: 80%', controls: true, preload: "metadata") %>
 
       <div class="template-nt-spacer template-nt-spacer-sm"></div>
 
