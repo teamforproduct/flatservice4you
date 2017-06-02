@@ -1040,7 +1040,7 @@ body#flatservice {
     }
 
     .sz_shop_slider_trig .row > div {
-        padding: 10px;
+        padding: 20px;
     }
 
     .sz_shop_slider_trig_wrap {
@@ -1495,6 +1495,12 @@ body#flatservice {
 
       #template-nt-products .sz_shop_slider_wrapper .sz_shop_slider_header h2 {
         font-size: 35px;
+      }
+
+      .sz_sldr_shop_slider_image,
+      .sz_shop_slider_slide_txt  {
+        width: 100%;
+        padding-left: 0;
       }
 
       #template-nt-testimony blockquote {
