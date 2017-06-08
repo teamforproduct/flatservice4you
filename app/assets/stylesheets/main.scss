@@ -1,7 +1,20 @@
 body#flatservice {
-    .logo-img {
-        width: 120px;
+    .logo-img,
+    .logo-img-white {
         height: 62px;
+    }
+
+    .logo-img-white {
+        display: none;
+    }
+
+    &.scrolled {
+        .logo-img {
+            display: none;
+        }
+       .logo-img-white {
+            display: block;
+        } 
     }
 
     #template-nt-hero {
