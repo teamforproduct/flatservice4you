@@ -134,7 +134,7 @@ $(function () {
 			switch($(item).data('type')) {
 		    case "weeks":
 		    		$(item).countTo({
-		    			from: left/1000/60/60/24/7,
+		    			from: Math.floor(left/1000/60/60/24/7),
 							to: 0,
 							speed: left,
 							refreshInterval: 1000
@@ -142,7 +142,7 @@ $(function () {
 		        break;
 		    case "days":
 		    		$(item).countTo({
-		    			from: left/1000/60/60/24,
+		    			from: Math.floor(left/1000/60/60/24),
 							to: 0,
 							speed: left,
 							refreshInterval: 1000
@@ -150,7 +150,7 @@ $(function () {
 		        break;
 		    case "minutes":
 		    		$(item).countTo({
-		    			from: left/1000/60,
+		    			from: Math.floor(left/1000/60),
 							to: 0,
 							speed: left,
 							refreshInterval: 1000
