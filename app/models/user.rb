@@ -2,6 +2,8 @@ class User < ActiveRecord::Base
   has_one :car, dependent: :destroy
   has_many :providers
 
+  after_create :send_welcome_email
+
   accepts_nested_attributes_for :car
 
   validates :email, presence: true
@@ -29,5 +31,9 @@ class User < ActiveRecord::Base
     end
 
     user
+  end
+
+  def send_welcome_email
+    UserMailer.welcome_email(self).deliver_later
   end
 end

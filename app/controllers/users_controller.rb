@@ -2,10 +2,7 @@ class UsersController < ApplicationController
   def create
     @user = User.create(user_params)
     
-    if @user
-      UserMailer.welcome_email(@user).deliver_later
-      flash[:success] = t('user_success_create')
-    end
+    flash[:success] = t('user_success_create') if @user
 
     redirect_to root_path
   end
