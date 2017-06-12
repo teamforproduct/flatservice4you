@@ -63,7 +63,7 @@ $(function () {
 			items: 1,
       margin: 0,
       responsiveClass: true,
-      loop: true,
+      loop: false,
       nav: true,
       dots: true,
       autoplay: true,
