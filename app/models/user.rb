@@ -14,8 +14,10 @@ class User < ActiveRecord::Base
     user = joins(:providers).find_by(providers: {provider: auth.provider, uid: auth.uid})
 
     unless user
+      logger.debug "----------------- Facebook info: #{auth.info.inspect}"
+
       user = User.create(
-        email: auth.info.email || auth.extra.raw_info.email,
+        email: auth.info.email || auth.extra.raw_info.email || "flatserviceforyou-#{auth.uid}-#{auth.provider}.com",
         name: auth.info.first_name,
         surname: auth.info.last_name,
         gender: (User.genders.keys & [auth.extra.raw_info.gender]).first,
