@@ -15,9 +15,10 @@ class User < ActiveRecord::Base
 
     unless user
       logger.debug "----------------- Facebook info: #{auth.info.inspect}"
+      logger.debug "----------------- Facebook extra: #{auth.extra.raw_info.inspect}"
 
       user = User.create(
-        email: auth.info.email || auth.extra.raw_info.email || "flatserviceforyou-#{auth.uid}-#{auth.provider}.com",
+        email: auth.info.email || auth.extra.raw_info.email || "#{auth.uid}-#{auth.provider}@flatserviceforyou.com",
         name: auth.info.first_name,
         surname: auth.info.last_name,
         gender: (User.genders.keys & [auth.extra.raw_info.gender]).first,
