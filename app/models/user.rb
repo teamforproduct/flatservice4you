@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
 
     unless user
       user = User.create(
-        email: auth.extra.raw_info.email || "change@me-#{auth.uid}-#{auth.provider}.com",
+        email: auth.info.email || auth.extra.raw_info.email,
         name: auth.info.first_name,
         surname: auth.info.last_name,
         gender: (User.genders.keys & [auth.extra.raw_info.gender]).first,
