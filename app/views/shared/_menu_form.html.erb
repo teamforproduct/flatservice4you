@@ -20,7 +20,7 @@
   </div>
 
   <div class="col-md-12">
-    <%= f.submit t('sign_up_now'), class: "btn btn-xs btn-success" %>
+    <%= f.submit t('sign_up_now'), class: "btn btn-xs btn-success", onClick: "ga('send', 'event', 'form', 'send', 'top');" %>
   </div>
 
   <div style="margin-bottom: 0">

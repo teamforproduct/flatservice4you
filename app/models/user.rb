@@ -14,10 +14,6 @@ class User < ActiveRecord::Base
     user = joins(:providers).find_by(providers: {provider: auth.provider, uid: auth.uid})
 
     unless user
-      logger.debug "----------------- Facebook auth: #{auth.inspect}"
-      logger.debug "----------------- Facebook extra: #{auth.extra.raw_info.inspect}"
-      logger.debug "----------------- Facebook info: #{auth.info.inspect}"
-
       user = User.create(
         email: auth.info.email || auth.extra.raw_info.email || "#{auth.uid}-#{auth.provider}@flatserviceforyou.com",
         name: auth.info.first_name,

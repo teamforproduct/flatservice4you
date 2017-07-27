@@ -30,7 +30,7 @@
 
           <div class="col-md-3 col-sm-3">
             <div class="form-group">
-              <%= f.submit t('sign_up_now'), class: "btn btn-default" %>
+              <%= f.submit t('sign_up_now'), class: "btn btn-default", onClick: "ga('send', 'event', 'form', 'send', 'bottom');" %>
             </div>
           </div>
         <% end %>
