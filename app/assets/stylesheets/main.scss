@@ -19,6 +19,10 @@ body#flatservice {
         } 
     }
 
+    .intro-animate-1 {
+        opacity: 0;
+    }
+
     #template-nt-hero {
         background-image: asset-url("main_banner5.jpg");
         background-position: center;
