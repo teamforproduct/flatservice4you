@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <!-- CriticalPathCss -->
+  <style>
+  <%= CriticalPathCss.fetch(request.path) %>
+  </style>
+  <script>
+      loadCSS("<%= stylesheet_path('application') %>");
+  </script>
+  <link rel="preload" href="<%= stylesheet_path('application') %>" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+      <link rel="stylesheet" href="<%= stylesheet_path('application') %>">
+  </noscript>
+  <!-- End CriticalPathCss -->
   <%= csrf_meta_tags %>
   <%= render 'shared/head_analytics', cached: true %>
 </head>

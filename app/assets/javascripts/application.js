@@ -12,6 +12,10 @@
 //
 //= require jquery
 
+//= require loadCSS
+//= require cssrelpreload
+//= require onloadCSS
+
 //= require jquery_ujs
 
 //= require modernizr-2.6.2.min

@@ -46,6 +46,8 @@ gem 'omniauth-facebook'
 gem 'tolk'
 gem 'i18n-tasks'
 
+gem 'critical-path-css-rails'
+gem 'loadcss-rails'
 gem 'yui-compressor'
 gem 'closure-compiler'
 
