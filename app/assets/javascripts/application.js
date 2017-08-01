@@ -24,7 +24,6 @@
 //= require owl.carousel.min
 //= require jquery.countTo
 //= require main
-//= require chat
 //= require SmoothScroll
 //= require touchSwipe
 //= require plugj
