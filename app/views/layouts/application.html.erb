@@ -7,24 +7,24 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= csrf_meta_tags %>
-  <%= render 'shared/head_analytics' %>
+  <%= render 'shared/head_analytics', cached: true %>
 </head>
 <body id="flatservice">
-  <%= render 'shared/body_analytics' %>
+  <%= render 'shared/body_analytics', cached: true %>
   <%= render 'layouts/flash' %>
-  <%= render 'shared/sidebar' %>
-  <%= render 'shared/menu' %>
+  <%= render 'shared/sidebar', cached: true %>
+  <%= render 'shared/menu', cached: true %>
 
   <div id="template-nt-page">
     <div id="template-nt-wrap">
-      <%= render 'shared/header' %>
+      <%= render 'shared/header', cached: true %>
       <%= yield %>
     </div>
-    <%= render 'shared/footer' %>
+    <%= render 'shared/footer', cached: true %>
   </div>
 
-  <%= render 'shared/analytics' %>
-  <%= render 'home/blog_modal' %>
+  <%= render 'shared/analytics', cached: true %>
+  <%= render 'home/blog_modal', cached: true %>
   <%= javascript_include_tag 'application', :async => true %>
 </body>
 </html>
