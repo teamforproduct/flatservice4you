@@ -3,20 +3,9 @@
 <head>
   <title>Flatservice4you</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <!-- CriticalPathCss -->
-  <style>
-  <%= CriticalPathCss.fetch(request.path) %>
-  </style>
-  <script>
-      loadCSS("<%= stylesheet_path('application') %>");
-  </script>
-  <link rel="preload" href="<%= stylesheet_path('application') %>" as="style" onload="this.rel='stylesheet'">
-  <noscript>
-      <link rel="stylesheet" href="<%= stylesheet_path('application') %>">
-  </noscript>
-  <!-- End CriticalPathCss -->
+  <%= javascript_include_tag 'load_css' %>
+  <%= render 'shared/critical_path_css', cached: true %>
+  <%= google_webfonts_init(google: ['Montserrat:400,700', 'Open+Sans']) %>
   <%= csrf_meta_tags %>
   <%= render 'shared/head_analytics', cached: true %>
 </head>
@@ -36,6 +25,6 @@
 
   <%= render 'shared/analytics', cached: true %>
   <%= render 'home/blog_modal', cached: true %>
-  <%= javascript_include_tag 'application', :async => true %>
+  <%= javascript_include_tag 'application', :async => Rails.env.production? %>
 </body>
 </html>
