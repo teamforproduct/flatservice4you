@@ -3,7 +3,6 @@
 <head>
   <title>Flatservice4you</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <%= javascript_include_tag 'load_css' %>
   <%= render 'shared/critical_path_css', cached: true %>
   <%= google_webfonts_init(google: ['Montserrat:400,700', 'Open+Sans']) %>
   <%= csrf_meta_tags %>
@@ -25,6 +24,7 @@
 
   <%= render 'shared/analytics', cached: true %>
   <%= render 'home/blog_modal', cached: true %>
+  <%= javascript_include_tag 'load_css', :async => Rails.env.production? %>
   <%= javascript_include_tag 'application', :async => Rails.env.production? %>
 </body>
 </html>
