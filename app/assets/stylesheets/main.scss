@@ -1078,15 +1078,11 @@ body#flatservice {
     }
 
     .sz_shop_slider_trig_img {
-        background: #ededed none repeat scroll 0 0;
         overflow: hidden;
         position: relative;
-    }
 
-    .sz_shop_slider_trig_img > img {
-        display: block;
-        margin: auto;
-        width: 100%;
+        @include background-cover-image();
+        @include aspect-ratio(1.36, 1);
     }
 
     .sz_shop_slider_trig_img > span {
